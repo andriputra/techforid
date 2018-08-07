@@ -301,7 +301,8 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   padding: 20px;
 }
 .slider-section .slider__item .item .slider__description p.time,
-.all-course .course__list > ul li .course__desc .info{
+.all-course .course__list > ul li .course__desc .info,
+.package ul.list__item_materi li .box__materi .info{
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   color: #9AA0AB;
@@ -309,7 +310,8 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   margin-bottom: 0px;
 }
 .slider-section .slider__item .item .slider__description p.title,
-.all-course .course__list > ul li .course__desc p.title{
+.all-course .course__list > ul li .course__desc p.title,
+.package ul.list__item_materi li .box__materi .box__description p.title{
   font-size: 13px;
   color: #215CA0;
   line-height: 18px;
@@ -487,14 +489,16 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
 .all-course .course__list > ul li .course__desc{
   margin-right: 0px;
 }
-.all-course .course__list > ul li p.info__course{
+.all-course .course__list > ul li p.info__course,
+.package ul.list__item_materi li .box__materi .info__course{
   margin-bottom: 0px;
   display: inline-block;
   color: #9AA0AB;
   font-size: 12px;
   margin-right: 15px;
 }
-.all-course .course__list > ul li p.info__course i.fa{
+.all-course .course__list > ul li p.info__course i.fa,
+  .package ul.list__item_materi li .box__materi .info__course i.fa{
   color: #215CA0;
   font-size: 10px;
   margin-right: 5px;
@@ -534,6 +538,289 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   border: none;
 }
 /* End All COURSE */
+
+/* Course Package */
+.package .title h2{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  border-bottom: 1px solid #E6E7E9;
+  padding-bottom: 18px;
+  margin-bottom: 117px;
+}
+.package .box{
+  border: 1px solid #E6E7E9;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+.package .box.package__banner i.fa{
+  color: #5fb48e;
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.package .box.package__banner a{
+  float: right;
+  background: #00458E;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 3px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.package .box.package__banner a:hover{
+  background: #032E61;
+}
+.package .box.package__banner a i.fa{
+  margin-right: 14px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.package .box.package__time_course{
+  background-color: #F5F5F5;
+}
+.package .box.package__time_course .author,
+.package .box.package__time_course .package__description_bar,
+.package .box.package__time_course .button__package{
+  display: inline-block;
+}
+.package .box.package__time_course .author{
+  width: 10%;
+  vertical-align: top;
+}
+.package .box.package__time_course .author img{
+  width: 70%;
+  margin: 0 auto;
+}
+.package .box.package__time_course .package__description_bar{
+  width: 73%;
+}
+.package .box.package__time_course .package__description_bar span.name{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.package .box.package__time_course .package__description_bar .progress{
+  border-radius: 25px;
+  box-shadow: none;
+  background-color: #ededec;
+  margin-bottom: 10px;
+}
+.package .box.package__time_course .package__description_bar .progress-bar{
+  background-color: #00458E;
+  border-radius: 25px;
+}
+.package .box.package__time_course .package__description_bar .talent_info{
+  margin-top: 15px;
+}
+.package .box.package__time_course .package__description_bar .talent_info p{
+  color: #9AA0AB;
+}
+.package .box.package__time_course .package__description_bar .talent_info a{
+  color: #1193D4;
+  text-decoration: none;
+}
+.package .box.package__time_course .package__description_bar .talent_info a i.fa{
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+.package .box.package__time_course .button__package{
+  width: 16%;
+  vertical-align: top;
+  padding-left: 25px;
+  margin-top: 35px;
+}
+.package .box.package__time_course .button__package button{
+  display: block;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background-color: #215CA0;
+  border-radius: 20px;
+  padding: 6px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.package .box.package__time_course .button__package button i.fa{
+  margin-right: 10px;
+  font-size: 12px;
+}
+.package .box.package__time_course .button__package button:hover{
+  background-color: #032E61;
+}
+.package .box.package__time_course .button__package span{
+  color: #9AA0AB;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.package .box_package__step .box{
+  margin-bottom: 0px;
+}
+.package .box_package__step .box.step2,
+.package .box_package__step .box.step3{
+  background-color: #F5F5F5;
+}
+.package .box_package__step .box.step1 p,
+.package .box_package__step .box.step2 p{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+}
+.package .box_package__step .box.step2 p i.fa{
+  color: #01458e;
+  font-size: 18px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.package .box_package__step .box.step3 ul{
+  position: relative;
+  padding-left: 0px;
+  list-style: none;
+  margin: 30px 0px 70px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li,
+.package .box_package__step .box.step3 ul.list__item_materi li{
+  display: inline-block;
+}
+.package .box_package__step .box.step3 ul.step_by_step li{
+  width: 20%;
+  margin-left: -4px;
+  position: relative;
+}
+.package .box_package__step .box.step3 ul.step_by_step::before{
+  content: '';
+  position: absolute;
+  width: 95%;
+  height: 3px;
+  background-color: #b5babf;
+  left: 0px;
+  top: 25px;
+  z-index: 0;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:first-child::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #00458E;
+  left: 50px;
+  top: 25px;
+  z-index: 0;
+}
+.package .box_package__step .box.step3 ul.step_by_step li span.icon,
+.package .box_package__step .box.step3 ul.step_by_step li span.number{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: #B5BABF;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.package .box_package__step .box.step3 ul.step_by_step li span.number{
+  margin-left: 50px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:hover span.number{
+  background:#00A1E0 url("../img/play.png");
+  background-repeat: no-repeat;d
+  z-index: 99;
+  text-indent: -10000px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:nth-child(3) span.number{
+  margin-left: 85px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:nth-child(3):hover::after{
+  right: 134px;
+  width: 93%;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:nth-child(4) span.number{
+  margin-left: 125px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:nth-child(4):hover::after{
+  right: 94px;
+  width: 96%;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:nth-child(5):hover::after{
+  right: 50px;
+  width: 98%;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:hover::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #00A1E0;
+  right: 170px;;
+  top: 25px;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:first-child:hover::after{
+  content: none;
+}
+.package .box_package__step .box.step3 ul.step_by_step li:last-child{
+  text-align: right;
+}
+.package .box_package__step .box.step3 ul.step_by_step li span.icon{
+  background: #00458E;
+}
+.package ul.list__item_materi li .box__materi{
+  margin-right: 4px;
+  border: 1px solid #e6e7e9;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.package ul.list__item_materi li .box__materi:hover{
+  -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+.package ul.list__item_materi li .box__materi .image img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.package ul.list__item_materi li .box__materi .box__description{
+  padding: 10px;
+}
+.package ul.list__item_materi li .box__materi .box__description .progress{
+  margin-top: 10px;
+  height: 4px;
+}
+.package ul.list__item_materi li .box__materi .box__description .progress .progress-bar.process{
+  background: #b5babf;
+  box-shadow: none;
+}
+.package ul.list__item_materi li .box__materi .box__description .progress .progress-bar.half-process{
+  background: #00A1E0;
+  box-shadow: none;
+}
+.package ul.list__item_materi li .box__materi .box__description .progress .progress-bar.full{
+  box-shadow: none;
+  background: #00458E;
+}
+.package ul.list__item_materi li .box__materi .box__description button.btn-progress{
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  border-radius: 25px;
+  background: #B5BABF;
+  color: #ffffff;
+  padding: 7px;
+  font-weight: 600;
+}
+.package ul.list__item_materi li .box__materi .box__description button.btn-progress.half-process{
+  background: #00A1E0;
+}
+.package ul.list__item_materi li .box__materi .box__description button.btn-progress:hover,
+.package ul.list__item_materi li .box__materi .box__description button.btn-progress.done{
+  background: #032e61;
+}
+/* End Course Package */
 
 footer{
   background-color: #434A54;
