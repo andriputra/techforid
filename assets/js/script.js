@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  $(window).bind("scroll", function() {
-  var navHeight = $( window ).height() - 65 ;
-    if ($(window).scrollTop() >= navHeight) {
-      $("#myHeader").addClass("fixed");
+  var navHeight = $('#myHeader').offset().top;
+  $(window).scroll(function(){
+    if ($(window).scrollTop() > navHeight) {
+      $("#myHeader").addClass("fixed").slideDown('slow');
     }
     else {
       $("#myHeader").removeClass("fixed");
