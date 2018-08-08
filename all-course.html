@@ -80,10 +80,61 @@
             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
           </form>
           <ul class="nav navbar-nav navbar-right font-thin">
-            <li><a href="#">Techfor Community</a></li>
-            <li><a href="#"><ion-icon src="assets/img/_ionicons_svg_ios-cart.svg"></ion-icon></a></li>
-            <li><a href="#" class="bord-rad"><span>Login</span></a></li>
-            <li><a href="#" class="bord-rad"><span>Sign Up</span></a></li>
+            <li><a href="#"><i class="fa fa-envelope-o icon" aria-hidden="true"></i><span class="notif">1</span></a></li>
+            <li class="dropdown notification">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart icon" aria-hidden="true"></i><span class="notif">2</span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <img src="assets/img/product1.jpg" class="img-responsive">
+                      </div>
+                      <div class="box__desc">
+                        <p class="title">Belajar Design Grafis...</p>
+                        <p class="author">By: Baba Studio</p>
+                        <p class="price"><span class="rp">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <img src="assets/img/product1.jpg" class="img-responsive">
+                      </div>
+                      <div class="box__desc">
+                        <p class="title">Cara mudah membuat...</p>
+                        <p class="author">By: Baba Studio</p>
+                        <p class="price"><span class="rp">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="submit__product">
+                  <a href="#">
+                    <p class="submit-price">Total: <strong>Rp. 1Jt</strong> <span class="discount">Rp. 650Rb</span></p>
+                    <button type="button" name="button" class="submit-cart">GO TO CART</button>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-bell-o icon" aria-hidden="true"></i><span class="notif">3</span></a></li>
+            <li>
+              <div class="user-log">
+                <div class="user__photo">
+                  <img src="assets/img/user.jpg" alt="pprofile photo" class="img-responsive img-circle">
+                </div>
+                <div class="user__info">
+                  <span class="name">Nama Saya</span>
+                  <span class="level">Level</span>
+                </div>
+                <div class="user__caret">
+                  <a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
