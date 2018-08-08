@@ -25,18 +25,81 @@ header nav.navbar.navbar-default .navbar-nav>li>a{
   font-weight: 600;
   color: #ffffff;
 }
-header nav.navbar.navbar-default .navbar-nav>li>a ion-icon{
+header nav.navbar.navbar-default .navbar-nav>li>a ion-icon,
+header nav.navbar.navbar-default .navbar-nav>li>a .fa.icon{
   font-size: 20px;
   vertical-align: middle;
   padding: 6px;
   border-radius: 25px;
+  position: relative;
+}
+header nav.navbar.navbar-default .navbar-nav>li>a .fa.icon{
+  font-size: 16px;
 }
 header nav.navbar.navbar-default .navbar-nav>li>a:hover{
   color: #333333;
 }
+header nav.navbar.navbar-default .navbar-nav>li>a:hover .fa.icon,
 header nav.navbar.navbar-default .navbar-nav>li>a:hover ion-icon{
   background: #337ab7;
   color: #ffffff;
+}
+header nav.navbar.navbar-default .navbar-nav>li>a span.notif{
+  display: inline-block;
+  position: absolute;
+  background-color: #FF272C;
+  color: #ffffff;
+  border-radius: 50px;
+  top: 19px;
+  right: 15px;
+  height: 13px;
+  width: 13px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 12px;
+}
+header nav.navbar.navbar-default .navbar-nav.navbar-right>li:last-child{
+  display: block;
+  text-align: right;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log{
+  margin-top: 13px;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__photo,
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__info,
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__caret{
+  display: inline-block;
+  vertical-align: top;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__photo{
+  width: 15%;
+  margin-right: 7px;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__info .name{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Open Sans',sans-serif;
+  display: block;
+  line-height: 6px;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__info{
+  margin-top: 7px;
+  text-align: left;
+  width: 38%;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__info .level{
+  font-size: 11px;
+  font-weight: 400;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__caret{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__caret a{
+  color: #ffffff;
+}
+header nav.navbar.navbar-default .navbar-nav>li> .user-log .user__caret a:hover{
+  color: #222222;
 }
 header nav.navbar-default .navbar-nav>.open>a,
 header nav.navbar-default .navbar-nav>.open>a:hover,
@@ -100,7 +163,7 @@ header nav.navbar.navbar-default .navbar-nav .dropdown-submenu>.dropdown-menu li
   background: #E6E7E9;
 }
 header nav.navbar-default .navbar-form.navbar-left{
-  width: 45%;
+  width: 44%;
   margin: 10px 0px;
   position: relative;
 }
@@ -505,18 +568,26 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 20px 0px;
+  padding: 45px 0px 20px;
+}
+.all-course .breadcrumb a{
+  text-decoration: none;
+  color: #ffffff;
 }
 .all-course .breadcrumb h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 42px;
-  margin-top: 45px;
+  margin-top: 34px;
   color: #ffffff;
 }
 .all-course .breadcrumb span.info{
   color: #ffffff;
+  font-weight: 300;
+}
+.all-course .breadcrumb span.info .fa{
+  margin-right: 10px;
 }
 .all-course .breadcrumb::before{
   background-color: rgba(0, 161, 224, 0.71);
@@ -533,6 +604,11 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   font-size: 24px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
+}
+.all-course .alert.alert-warning{
+  background-color: #FFEEDC;
+  border-color: #C18911;
+  color: #C18910;
 }
 .all-course .all-course__filter{
   background-color: #F5F5F5;
@@ -556,6 +632,7 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
 .all-course .all-course__filter .split__filter.search{
   width: 40%;
   margin: 0px 0px 0px 60px;
+  position: relative;
 }
 .all-course .all-course__filter .split__filter .form-control{
   height: 44px;
@@ -563,10 +640,14 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   border: none;
 }
 .all-course .all-course__filter .split__filter.search .form-control{
-  width: 75%;
+  width: 100%;
   display: inline-block;
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.all-course .all-course__filter .split__filter .form-control:hover,
+.all-course .all-course__filter .split__filter.search .form-control:hover{
+  border:1px solid  #1193D4;
 }
 .all-course .all-course__filter .split__filter.search button{
   border: none;
@@ -579,9 +660,13 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   padding-right: 28px;
   font-weight: 600;
   margin-left: -25px;
+  position: absolute;
+  top: 0px;
+  right: 0px
 }
 .all-course .all-course__filter .split__filter.search button:hover{
   background: #032E61;
+  border:1px solid #032E61;
 }
 .all-course .course__list > ul{
   margin: 0px;
@@ -675,6 +760,12 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
 /* End All COURSE */
 
 /* Course Package */
+.package .alert.alert-info{
+  background-color: #E8F6FF;
+  border-color: #7DC1ED;
+  color: #31708f;
+  border-radius: 3px;
+}
 .package .title h2{
   font-family: 'Open Sans',sans-serif;
   font-size: 24px;
