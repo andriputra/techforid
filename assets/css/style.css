@@ -253,6 +253,29 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image{
   width: 20%;
 }
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__date,
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+  display: block;
+  border: 1px solid #F5F5F5;
+  background: #E6E7E9;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+  color: #00A1E0;
+  font-size: 24px;
+  font-weight: 600;
+  width: 60px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+  border-style: solid;
+  border-width: 1px;
+  background-color: #00A1E0;
+  border-color: #E6E7E9;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 2px 0px;
+}
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc{
   margin-left: 8px;
 }
@@ -264,6 +287,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 0px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc p.title.date{
+  color: #9AA0AB;
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc p.author{
   color: #9AA0AB;
@@ -291,6 +317,17 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product{
   background-color: #E6E7E9;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product.notif a{
+  text-align: center;
+  color: #215ca0;
+  font-weight: 600;
+  font-size: 18px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product.notif a i.fa{
+  color: #215ca0;
+  float: none;
+  margin-left: 20px;
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product p.submit-price{
   color: #434A54;
@@ -320,6 +357,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product button.submit-cart:hover{
   background: #032E61;
+}
+.inline-block{
+  display: inline-block;
 }
 
 /* Home Content */
@@ -583,6 +623,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   position: absolute;
   left: -75px;
   background-image: url('../img/icon/prev.png');
+  color: #888888;
   background-repeat: no-repeat;
   height: 50px;
   text-indent: -6000px;
@@ -1204,7 +1245,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .box.profile,
 .event .sidebar__event .box.follow{
   background: #f5f5f5;
-  padding: 10px 15px;
+  padding: 16px 15px;
 }
 .event .sidebar__event .box.follow{
   border-width: 1px 1px 1px 1px;
@@ -1212,6 +1253,13 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .box.title{
   padding: 10px 20px;
   margin-top: 20px;
+}
+.event .sidebar__event .box.title img{
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.event .sidebar__event .box.title .fa{
+  margin-right: 10px;
 }
 .event .sidebar__event .box.title p{
   margin-bottom: 0px;
@@ -1331,6 +1379,25 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body{
   border: none;
 }
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish{
+  padding-left: 15px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li{
+  margin-bottom: 10px;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a{
+  text-decoration: none;
+  color: #808080;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a:hover{
+  color: #215ca0;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a i.fa{
+  color: #215ca0;
+  margin-right: 10px;
+}
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a{
   display: block;
   color: #215CA0;
@@ -1338,7 +1405,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-  padding: 10px 15px;
+  padding: 12px 15px;
 }
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a:focus,
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a:hover{
@@ -1949,7 +2016,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 
 /* My Course */
 .my-course{
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .my-course .all-course h2.inner{
   padding-bottom: 0px;
@@ -2075,9 +2142,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .my-course .all-course .course__list > ul li:nth-child(2n){
   margin-right: 0px;
 }
-.my-course .all-course .course__list > ul li:nth-child(3n){
-  margin-right: 10px;
+.my-course .all-course .course__list > ul li:nth-child(3) {
   margin-left: 1px;
+  margin-right: 10px;
 }
 .my-course .all-course .all-course__filter{
   margin-bottom: 20px;
@@ -2311,6 +2378,120 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   padding: 35px 30px 12px;
 }
 .my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .recom_link a:hover{
+  background: #032E61;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td:nth-child(1){
+  padding: 8px 5px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend{
+  border-width: 0px 1px 1px 1px
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li{
+  position: relative;
+  width: 20%;
+  margin-right: 12px;
+  padding: 2px;
+  margin-bottom: 12px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li:nth-child(4n){
+  margin-right: 0px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li span.ico{
+  position: absolute;
+  bottom: 14px;
+  right: -5px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li:hover{
+  background: #EDEDED;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li img{
+  width: 90%;
+  margin: 0 auto;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li span.ico img{
+  width: 80%;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li p.name{
+  font-size: 12px;
+  color: #9AA0AB;
+  line-height: 12px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li:last-child{
+  vertical-align: top;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li:last-child:hover{
+  background: transparent;
+}
+.my-course .sidebar__event.my__course-sidebar .box.follow.refer__friend ul li.more span{
+  display: inline-block;
+  text-align: center;
+  background: #215CA0;
+  color: #ffffff;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.my-course .my__course-sidebar .search .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+.my-course .my__course-sidebar .search .form-group input{
+  border-radius: 0px;
+  height: 45px;
+  border-color: #e6e7e9;
+}
+.my-course .my__course-sidebar .search .form-group input:hover{
+  border-color: #1093d4;
+}
+.my-course .my__course-sidebar .search .form-group button{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  color: #0d5697;
+  font-size: 25px;
+  height: 45px;
+  width: 45px;
+}
+.my-course .all-course.side-bar .course__list > ul li{
+  width: 100%;
+  margin-top: 20px;
+}
+.my-course .all-course.side-bar .course__list > ul li .info{
+  display: block;
+}
+.my-course .all-course.side-bar .course__list > ul li .rating{
+  color: #EEAE16;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer{
+  margin-top: 30px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer .price{
+  float: none;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer a.btn.button-blue{
+  background: #215ca0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 50px;
+  float: right;
+  margin-top: 0px;
+  padding: 10px 25px;
+  display: inline-block;
+}
+.my-course .all-course.side-bar .course__list > ul li .info-state{
+  margin-top: 30px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer a.btn.button-blue:hover{
   background: #032E61;
 }
 /* End My Course */
