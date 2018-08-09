@@ -500,13 +500,13 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   right: -9px;
 }
 .slider-section .slider__item .item .slider__image .label.hot_news:after,
-.all-course .course__list > ul li .image span.label.new_course::after{
+.all-course .course__list > ul li .image span.label.hot_news::after{
   border-top: 10px solid #f85e26;
   border-right: 9px solid transparent;
   border-bottom: 11px solid #f85e26;
 }
 .slider-section .slider__item .item .slider__image .label.new_course:after,
-.all-course .course__list > ul li .image span.label.hot_news::after{
+.all-course .course__list > ul li .image span.label.new_course::after{
   border-top: 10px solid #2eb79b;
   border-right: 9px solid transparent;
   border-bottom: 11px solid #2eb79b;
@@ -848,7 +848,8 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 /* End All COURSE */
 
 /* Course Package */
-.package .alert.alert-info{
+.package .alert.alert-info,
+.my-course .alert.alert-info{
   background-color: #E8F6FF;
   border-color: #7DC1ED;
   color: #31708f;
@@ -867,7 +868,8 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   padding: 18px;
   margin-bottom: 18px;
 }
-.package .box.package__banner i.fa{
+.package .box.package__banner i.fa,
+.my-course .box.package__banner i.fa{
   color: #5fb48e;
   font-size: 30px;
   vertical-align: middle;
@@ -1944,6 +1946,374 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   text-decoration: none;
 }
 /* End Detail Courses */
+
+/* My Course */
+.my-course{
+  margin-bottom: 50px;
+}
+.my-course .all-course h2.inner{
+  padding-bottom: 0px;
+  border: none;
+}
+.my-course .alert,
+.my-course .alert ul{
+  margin-bottom: 0px;
+}
+.my-course .alert ul{
+  padding-left: 0px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 9px;
+}
+.my-course .alert ul li{
+  display: inline-block;
+}
+.my-course .alert ul li a i.fa{
+  border: 1px solid #9AA0AB;
+  color: #9AA0AB;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+  text-align: center;
+}
+.my-course .box.package__banner{
+  border: 1px solid #E6E7E9;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+.my-course .box.package__banner .alert ul li a i.fa{
+  color: #9AA0AB;
+  font-size: 12px;
+  margin-right: 0px;
+}
+.my-course .box.package__banner .alert ul li a i.fa:hover{
+  background: #215CA0;
+  color: #ffffff;
+  border-color: #215CA0;
+}
+.my-course .box.package__banner .alert ul li a.tw i.fa:hover{
+  background: #1193D4;
+  border-color: #1193D4;
+}
+.my-course .box.package__banner .alert ul li a.mail i.fa:hover{
+  background: #434A54;
+  border-color: #434A54;
+}
+.my-course .box.package__banner .alert ul li a.link i.fa:hover{
+  background: #ff6d2c;
+  border-color: #ff6d2c;
+}
+.my-course .box.package__banner .information h5{
+  font-size: 15px;
+  font-weight: 600;
+  color: #434A54;
+  margin: 15px 0px;
+}
+.my-course .box.package__banner .information .video__box{
+  display: block;
+  background: #F5F5F5;
+  padding: 7px;
+}
+.my-course .box.package__banner .information .video__box .video__frame{
+  display: inline-block;
+  vertical-align: top;
+}
+.my-course .box.package__banner .information .video__box .video__description{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  width: 60%;
+}
+.my-course .box.package__banner .information .video__box .video__description h6{
+  color: #215CA0;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 0px;
+}
+.my-course .box.package__banner .information .video__box .video__description h6 a{
+  text-decoration: none;
+}
+.my-course .box.package__banner .information .video__box .video__description h6 a:hover{
+  color: #00458E;
+}
+.my-course .box.package__banner .information .video__box .video__description span.author,
+.my-course .box.package__banner .information .video__box .video__description p.progress__info{
+  color: #9AA0AB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.my-course .box.package__banner .information .video__box .video__description .progress,
+.my-course .course__desc .progress{
+  height: 5px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  background-color: #ededed;
+  box-shadow: none;
+}
+.my-course .box.package__banner .information .video__box .video__description .progress .progress-bar,
+.my-course .course__desc .progress .progress-bar{
+  background: #00458E;
+}
+.my-course .box.package__banner .information .video__box .video__description .links a.btn{
+  background: #00458E;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 20px;
+  box-shadow: none;
+}
+.my-course .box.package__banner .information .video__box .video__description .links a.btn:hover{
+  background: #032E61;
+}
+.my-course .all-course .course__list > ul li{
+  width: 49%;
+  position: relative;
+}
+.my-course .all-course .course__list > ul li:nth-child(2n){
+  margin-right: 0px;
+}
+.my-course .all-course .course__list > ul li:nth-child(3n){
+  margin-right: 10px;
+  margin-left: 1px;
+}
+.my-course .all-course .all-course__filter{
+  margin-bottom: 20px;
+}
+.my-course .all-course .all-course__filter .split__filter{
+  width: 23%;
+  margin: 0px 0px 0px 20px;
+}
+.my-course .all-course .all-course__filter .split__filter.search{
+  margin: 0px 0px 0px 20px;
+  width: 55%;
+}
+.my-course .course__desc .progress{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.my-course .all-course .course__list > ul li:hover .hover-box{
+  opacity: 1;
+}
+.hover-box {
+  opacity: 0;
+  transition: 0.5s;
+  background-color: #434A54;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  border-radius: 5px;
+}
+.hover-box a .button-link{
+  background: #215CA0;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: 128px;
+}
+.hover-box a:hover .button-link{
+  background: #032E61;
+}
+.hover-box .button-link p{
+  margin-bottom: 0px;
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 15px;
+}
+.hover-box .button-link p.doll{
+  color: #EEAE16;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hover-box .button-link i.fa{
+  position: absolute;
+  left: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  top: 27px;
+  color: #ffffff;
+}
+.hover-box .button-link .info{
+  padding-left: 70px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard{
+  padding: 0px 0px 0px;
+  border-width: 1px 1px 1px 1px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .table{
+  margin-bottom: 0px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs{
+  background: #f5f5f5;
+  border-bottom: 0px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs>li{
+  width: 50%;
+  text-align: left;
+  padding: 5px 10px;
+  position: relative;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs>li.active::after{
+  content: "\f107";
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 11px;
+  top: 1px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs>li a{
+  border: none;
+  background: transparent;
+  padding: 0px;
+  font-size: 12px;
+  color: #9AA0AB;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs>li.active a{
+  color: #00458E;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td{
+  vertical-align: middle;
+  padding: 1px 6px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td ion-icon{
+  font-size: 14px;
+  vertical-align: middle;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.up ion-icon{
+  transform: rotate(90deg);
+  color: #398e3d;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.down ion-icon{
+  transform: rotate(270deg);
+  color: #f05247;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.sym ion-icon{
+  color: #eeae16;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td:first-child{
+  width: 10%;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td:nth-child(2){
+  width: 10%;
+  padding: 0px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.img{
+  width: 18%;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td img{
+  margin: 0 auto;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td p{
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #9AA0AB;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table tr.current__user{
+  background-color: #f5f5f5;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td span{
+  font-size: 12px;
+  color: #9AA0AB;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td span.count{
+  font-size: 10px;
+  color: #00458E;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.lenc{
+  text-align: center;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .table td.lenc img{
+  margin-top: 5px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table tr{
+  background-color: #f5f5f5;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table tr:hover {
+  background-color: #ededed;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table td:nth-child(1){
+  padding: 5px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table td:nth-child(2){
+  width: 52%;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table td.name p{
+  font-size: 16px;
+  color: #215CA0;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table td:nth-child(3) a{
+  background: #00458e;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 13px;
+  border-radius: 50px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow .table td:nth-child(3) a .fa{
+  font-size: 10px;
+  margin-right: 2px;
+  font-weight: 100;
+}
+.recom_link{
+  padding: 12px 30px;
+  background: #f5f5f5;
+  border-top: 1px solid #e6e7e9;
+}
+.recom_link a{
+  color: #9AA0AB;
+}
+.recom_link a:hover{
+  color: #215CA0;
+  text-decoration: none;
+}
+.recom_link a.btn.button-blue{
+  background: #215CA0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 30px;
+  width: 100%;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table tr.first{
+  border-left: 8px solid #EEAE15;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table tr.second{
+  border-left: 8px solid #00458e;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table tr.third{
+  border-left: 8px solid #b5babf;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td.date p{
+  color: #434A54;
+  font-size: 18px;
+  line-height: 18px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td.date x
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td.date:hover p,
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td.date:hover span{
+  color: #00458e;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table td.title p{
+  font-size: 14px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .recom_link{
+  padding: 35px 30px 12px;
+}
+.my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .recom_link a:hover{
+  background: #032E61;
+}
+/* End My Course */
 
 footer{
   background-color: #434A54;
