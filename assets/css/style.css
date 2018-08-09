@@ -253,6 +253,29 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image{
   width: 20%;
 }
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__date,
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+  display: block;
+  border: 1px solid #F5F5F5;
+  background: #E6E7E9;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+  color: #00A1E0;
+  font-size: 24px;
+  font-weight: 600;
+  width: 60px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+  border-style: solid;
+  border-width: 1px;
+  background-color: #00A1E0;
+  border-color: #E6E7E9;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 2px 0px;
+}
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc{
   margin-left: 8px;
 }
@@ -264,6 +287,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 0px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc p.title.date{
+  color: #9AA0AB;
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc p.author{
   color: #9AA0AB;
@@ -291,6 +317,17 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li a
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product{
   background-color: #E6E7E9;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product.notif a{
+  text-align: center;
+  color: #215ca0;
+  font-weight: 600;
+  font-size: 18px;
+}
+header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product.notif a i.fa{
+  color: #215ca0;
+  float: none;
+  margin-left: 20px;
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product p.submit-price{
   color: #434A54;
@@ -320,6 +357,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 }
 header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.submit__product button.submit-cart:hover{
   background: #032E61;
+}
+.inline-block{
+  display: inline-block;
 }
 
 /* Home Content */
@@ -583,6 +623,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   position: absolute;
   left: -75px;
   background-image: url('../img/icon/prev.png');
+  color: #888888;
   background-repeat: no-repeat;
   height: 50px;
   text-indent: -6000px;
@@ -1204,7 +1245,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .box.profile,
 .event .sidebar__event .box.follow{
   background: #f5f5f5;
-  padding: 10px 15px;
+  padding: 16px 15px;
 }
 .event .sidebar__event .box.follow{
   border-width: 1px 1px 1px 1px;
@@ -1212,6 +1253,13 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .box.title{
   padding: 10px 20px;
   margin-top: 20px;
+}
+.event .sidebar__event .box.title img{
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.event .sidebar__event .box.title .fa{
+  margin-right: 10px;
 }
 .event .sidebar__event .box.title p{
   margin-bottom: 0px;
@@ -1357,7 +1405,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-  padding: 10px 15px;
+  padding: 12px 15px;
 }
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a:focus,
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a:hover{
@@ -2409,6 +2457,42 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
   font-size: 25px;
   height: 45px;
   width: 45px;
+}
+.my-course .all-course.side-bar .course__list > ul li{
+  width: 100%;
+  margin-top: 20px;
+}
+.my-course .all-course.side-bar .course__list > ul li .info{
+  display: block;
+}
+.my-course .all-course.side-bar .course__list > ul li .rating{
+  color: #EEAE16;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer{
+  margin-top: 30px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer .price{
+  float: none;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer a.btn.button-blue{
+  background: #215ca0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 50px;
+  float: right;
+  margin-top: 0px;
+  padding: 10px 25px;
+  display: inline-block;
+}
+.my-course .all-course.side-bar .course__list > ul li .info-state{
+  margin-top: 30px;
+}
+.my-course .all-course.side-bar .course__list > ul li .footer a.btn.button-blue:hover{
+  background: #032E61;
 }
 /* End My Course */
 
