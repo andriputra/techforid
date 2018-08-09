@@ -13,6 +13,20 @@
   header nav.navbar-default .navbar-form.navbar-left button{
     top: 11px;
   }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-toggle{
+    margin-top: 15px;
+    border: none;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+  }
   .banner{
     min-height: 365px;
   }
@@ -50,8 +64,11 @@
   .video-section iframe{
     width: 100% !important;
   }
-  .slider-section .slider__content .slider__item .owl-nav .owl-next{
-    right: 0px;
+  .slider-section .slider__content .slider__item .owl-nav{
+    display: none;
+  }
+  .slider-section .slider__content .slider__item .owl-theme .owl-dots {
+    text-align: center;
   }
   .detail-courses .detail__title li{
     margin-right: 0px;
