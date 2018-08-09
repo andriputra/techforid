@@ -1279,10 +1279,12 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .box .user__profile{
   display: inline-block;
   width: 36%;
-  border: 4px solid #b5babf;
-  border-radius: 50%;
   vertical-align: middle;
   margin-right: 10px;
+}
+.event .sidebar__event .box .user__profile img{
+  border: 4px solid #b5babf;
+  border-radius: 50%;
 }
 .event .sidebar__event .box .user__desc{
   display: inline-block;
