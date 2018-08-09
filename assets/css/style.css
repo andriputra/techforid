@@ -1331,6 +1331,25 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body{
   border: none;
 }
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish{
+  padding-left: 15px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li{
+  margin-bottom: 10px;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a{
+  text-decoration: none;
+  color: #808080;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a:hover{
+  color: #215ca0;
+}
+.event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li a i.fa{
+  color: #215ca0;
+  margin-right: 10px;
+}
 .event .sidebar__event .list__sidebar .panel-group .panel-default>.panel-heading h4 a{
   display: block;
   color: #215CA0;
