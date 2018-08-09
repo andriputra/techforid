@@ -2142,9 +2142,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .my-course .all-course .course__list > ul li:nth-child(2n){
   margin-right: 0px;
 }
-.my-course .all-course .course__list > ul li:nth-child(3n){
-  margin-right: 10px;
+.my-course .all-course .course__list > ul li:nth-child(3) {
   margin-left: 1px;
+  margin-right: 10px;
 }
 .my-course .all-course .all-course__filter{
   margin-bottom: 20px;
