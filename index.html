@@ -139,7 +139,7 @@
         </div>
         <div class="slider__item">
           <div id="slider__item_list" class="slider-class">
-            <div class="owl-carousel slider__low_item owl-theme">
+            <div class="owl-carousel slider__low_item1 owl-theme">
               <div class="item">
                 <a href="detail-kursus.html">
                   <div class="slider__image">
@@ -280,7 +280,7 @@
         </div>
         <div class="slider__item">
           <div id="slider__item_list" class="slider-class">
-            <div class="owl-carousel slider__low_item owl-theme">
+            <div class="owl-carousel slider__low_item2 owl-theme">
               <div class="item">
                 <a href="detail-kursus.html">
                   <div class="slider__image">
@@ -421,7 +421,7 @@
         </div>
         <div class="slider__item">
           <div id="slider__item_list" class="slider-class">
-            <div class="owl-carousel slider__low_item owl-theme">
+            <div class="owl-carousel slider__low_item3 owl-theme">
               <div class="item">
                 <a href="detail-kursus.html">
                   <div class="slider__image">
@@ -642,7 +642,34 @@
 </html>
 
 <script type="text/javascript">
-$('.owl-carousel.slider__low_item').owlCarousel({
+$('.owl-carousel.slider__low_item1').owlCarousel({
+    loop:true,
+    margin:25,
+    autoplay:true,
+    autoplayTimeout:5000,
+    responsiveClass:true,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        480:{
+            items:1,
+            nav:false
+        },
+        768:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+})
+$('.owl-carousel.slider__low_item2').owlCarousel({
     loop:true,
     margin:25,
     responsiveClass:true,
@@ -654,9 +681,40 @@ $('.owl-carousel.slider__low_item').owlCarousel({
             items:1,
             nav:true
         },
+        320:{
+            items:1,
+            nav:false
+        },
         600:{
-            items:3,
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+})
+$('.owl-carousel.slider__low_item3').owlCarousel({
+    loop:true,
+    margin:25,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
             nav:true
+        },
+        320:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1,
+            nav:false
         },
         1000:{
             items:4,
