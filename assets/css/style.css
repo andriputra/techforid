@@ -2124,6 +2124,9 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .my-course .course__desc .progress .progress-bar{
   background: #00458E;
 }
+.my-course .box.package__banner .information .video__box .video__description .links{
+  margin-top: 30px;
+}
 .my-course .box.package__banner .information .video__box .video__description .links a.btn{
   background: #00458E;
   border-radius: 50px;
@@ -2167,7 +2170,7 @@ header nav.navbar.navbar-default .navbar-nav>li.notification>.dropdown-menu>li.s
 .hover-box {
   opacity: 0;
   transition: 0.5s;
-  background-color: #434A54;
+  background-color: rgba(67, 74, 84, 0.5);
   height: 100%;
   width: 100%;
   position: absolute;
