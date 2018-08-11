@@ -362,6 +362,7 @@
   footer .widget .widget__description form .form-group {
     width: 82%;
     display: inline-block;
+    margin-bottom: 0rem;
   }
   footer .widget .widget__description ul.media{
     text-align: center;
