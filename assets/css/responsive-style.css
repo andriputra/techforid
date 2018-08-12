@@ -75,6 +75,7 @@
   }
   header nav .form-inline{
     width: 100%;
+    margin-top: 0px !important;
   }
   header nav .form-inline button{
     margin: 0px;
@@ -83,6 +84,18 @@
   }
   header nav.navbar .navbar-nav>li.notification{
     display: inline-block;
+    text-align: center;
+    margin: 6px 0px;
+  }
+  header nav.navbar .navbar-nav.navbar-right>li:last-child{
+    text-align: center;
+  }
+  header nav.navbar .navbar-nav>li.notification>.dropdown-menu::before{
+    content: none;
+  }
+  header nav.navbar .navbar-nav>li.notification>.dropdown-menu {
+    width: 100%;
+    padding: 7px 10px;
   }
   .banner{
     min-height: 365px;
