@@ -771,6 +771,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   font-size: 24px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
 }
 .all-course .alert.alert-warning{
   background-color: #FFEEDC;
@@ -1931,6 +1932,8 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .modal.video .modal-header{
   background: #032E61;
   margin-bottom: -1px;
+  border-radius: 0px;
+  display: block;
 }
 .modal.video .modal-header h4,
 .modal.video .modal-header h4 span{
@@ -1956,6 +1959,8 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   text-shadow: none;
   opacity: 1;
   color: #ffffff;
+  padding: 0px;
+  margin: 0px;
 }
 .modal.video .modal-content{
   border-radius: 0px;
@@ -2007,6 +2012,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: transparent;
   padding: 0px;
   vertical-align: middle;
+  width: 64%;
 }
 .modal.video .modal-body .list_video .list__videos ul>li>ul li.info__video p{
   margin-bottom: 0px;
@@ -2021,7 +2027,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   vertical-align: middle;
 }
 .modal.video.member .modal-dialog{
-  width: 750px;
+  max-width: 750px;
 }
 .modal.video.member .modal-body .barcode,
 .modal.video.member .modal-body .member_info{
