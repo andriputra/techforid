@@ -48,6 +48,20 @@
     padding: 7px 0px;
     font-size: 13px;
   }
+  .navbar-toggler-icon{
+    height: auto;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled){
+    padding: 0px;
+    border: 0px;
+  }
+  .navbar-toggler-icon i.fa{
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .navbar-toggler:focus{
+    outline: none;
+  }
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
@@ -58,6 +72,17 @@
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent;
     border-radius: 0px;
+  }
+  header nav .form-inline{
+    width: 100%;
+  }
+  header nav .form-inline button{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+  }
+  header nav.navbar .navbar-nav>li.notification{
+    display: inline-block;
   }
   .banner{
     min-height: 365px;
@@ -362,6 +387,7 @@
   footer .widget .widget__description form .form-group {
     width: 82%;
     display: inline-block;
+    margin-bottom: 0rem;
   }
   footer .widget .widget__description ul.media{
     text-align: center;
