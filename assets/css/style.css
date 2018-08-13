@@ -1441,9 +1441,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #ffffff;
 }
 .event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish{
-  padding-left: 15px;
   list-style: none;
   margin-bottom: 0px;
+  padding: 10px 15px 10px 35px;
 }
 .event .sidebar__event .list__sidebar .panel-default>.panel-heading+.panel-collapse>.panel-body ul.inner_wish li{
   margin-bottom: 10px;
@@ -2650,6 +2650,92 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .content__box .certificate__download a.btn span{
   display: inline;
   margin-left: 10px;
+}
+.certificate__box-top{
+  background: #F5F5F5;
+  border: 1px solid #E6E7E9;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+}
+.certificate__box-top .certificate__text,
+.certificate__box-top .certificate__info,
+.certificate__box-top .certificate__percent,
+.certificate__box-top .certificate__button{
+  display: inline-block;
+  vertical-align: top;
+}
+.certificate__box-top div p{
+  margin-bottom: 0px;
+}
+.certificate__box-top .certificate__text{
+  width: 31%;
+}
+.certificate__box-top .certificate__info{
+  width: 13%;
+}
+.certificate__box-top .certificate__info p.vid{
+  margin-bottom: 10px;
+}
+.certificate__box-top div.progress{
+  height: 20px;
+  border-radius: 25px;
+  background-color:  #e6e7e9;
+  margin-top: 18px;
+}
+.certificate__box-top div.progress .progress-bar{
+  background-color: #00458E;
+  border-radius: 25px;
+}
+.certificate__box-top .certificate__text h5 a{
+  color: #434A54;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+}
+.certificate__box-top .certificate__text span,
+.certificate__info p{
+  color: #9AA0AB;
+  font-size: 12px;
+  font-weight: 400;
+}
+.certificate__box-top .certificate__percent{
+  vertical-align: middle;
+  width: 12%;
+}
+.certificate__box-top .certificate__percent p{
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  line-height: 58px;
+}
+.certificate__box-top .certificate__button{
+  vertical-align: middle;
+}
+.certificate__box-top .certificate__button a.btn{
+  background: #00458E;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 9px 35px;
+  margin-right: 8px;
+}
+.certificate__box-top .certificate__button a.btn.btn-detail:hover{
+  background: #032E61;
+}
+.certificate__box-top .certificate__button a.btn.btn-request{
+  background: #009C9F;
+}
+.certificate__box-top .certificate__button a.btn.btn-request:hover,
+.certificate__box-top .certificate__button a.btn.btn-down{
+  background: #008891;
+}
+.certificate__box-top .certificate__button a.btn.btn-down{
+  margin-bottom: 0px;
 }
 /* End Certificate */
 
