@@ -10,6 +10,9 @@ body{
   padding-left: 10px;
   padding-right: 10px;
 }
+.container.menu__head{
+  max-width: 1330px;
+}
 .row{
   margin-left: -10px;
   margin-right: -10px;
@@ -1930,6 +1933,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .detail-courses .box__shadow.last ol li{
   margin-bottom: 5px;
 }
+.modal .modal-dialog{
+  max-width: 750px;
+}
 .modal.video .modal-header{
   background: #032E61;
   margin-bottom: -1px;
@@ -1945,7 +1951,8 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .modal.video .modal-header h4{
   color: #ffffff;
 }
-.modal.video .modal-header button{
+.modal .modal-header button,
+.modal .modal-body button.btn-diss{
   border-radius: 30px;
   padding-bottom: 5px;
   border-style: solid;
@@ -1962,6 +1969,17 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   color: #ffffff;
   padding: 0px;
   margin: 0px;
+}
+.modal .modal-body button.btn-diss{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.modal.certificate .modal-dialog{
+  max-width: 723px;
+}
+.modal.certificate .modal-body{
+  padding: 0px;
 }
 .modal.video .modal-content{
   border-radius: 0px;
@@ -2564,6 +2582,76 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #032E61;
 }
 /* End My Course */
+
+/* Certificate */
+.certificate h2{
+  font-size: 32px;
+}
+.content__box{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.content__box .certificate__download{
+  display: block;
+  padding: 8px 20px;
+  border: 1px solid #E6E7E9;
+  background: #ffffff;
+  margin-bottom: 2px;
+}
+.content__box .certificate__download:hover{
+  box-shadow: 0px 1px 5px rgba(33,92,160,0.35);
+}
+.content__box .certificate__download a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.content__box .certificate__download div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.content__box .certificate__download .text{
+  width: 75%;
+}
+.content__box .certificate__download .text p{
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.content__box .certificate__download .btn-download{
+  width: 24%;
+  text-align: right;
+}
+.content__box .certificate__download a.btn{
+  background: #215CA0;
+  padding: 10px;
+  font-size: 14px;
+  width: 90%;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.content__box .certificate__download a.btn.btn-full{
+  background: #215CA0;
+}
+.content__box .certificate__download a.btn.btn-empty,
+.content__box .certificate__download a.btn.btn-empty:hover{
+  background: #B5BABF;
+}
+.content__box .certificate__download a.btn.btn-empty span,
+.content__box .certificate__download a.btn.btn-empty i.fa{
+  color: #9AA0AB;
+}
+.content__box .certificate__download a.btn:hover{
+  background: #032E61;
+}
+.content__box .certificate__download a.btn i.fa{
+  font-size: 19px;
+  vertical-align: middle;
+}
+.content__box .certificate__download a.btn span{
+  display: inline;
+  margin-left: 10px;
+}
+/* End Certificate */
 
 footer{
   background-color: #434A54;

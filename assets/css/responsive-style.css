@@ -209,7 +209,7 @@
   .detail-courses .inner__side{
     margin-bottom: 40px;
   }
-  .modal.video.member .modal-dialog {
+  .modal .modal-dialog {
     width: auto;
   }
   .modal.video .modal-body .list_video .list__videos ul>li {
@@ -390,6 +390,16 @@
   }
   .package .box_package__step .box.step3 ul.step_by_step li:hover::after{
     content: none;
+  }
+
+  .content__box .certificate__download .btn-download{
+    width: 100%;
+    text-align: center;
+  }
+  .content__box .certificate__download .text {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
   }
 
   footer{
