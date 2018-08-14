@@ -153,7 +153,8 @@ header nav.navbar .navbar-nav>li>.dropdown-menu .dropdown-submenu a.dropdown-ite
 header nav.navbar .navbar-nav>li>.dropdown-menu> a:active{
   background-color: #cecece;
 }
-header nav.navbar .navbar-nav>li>.dropdown-menu>a img{
+header nav.navbar .navbar-nav>li>.dropdown-menu>a img,
+.dropdown-submenu>a img{
   display: inline-block;
   width: 10%;
   margin-right: 10px;
@@ -257,6 +258,25 @@ header nav ul.nav.navbar-nav.navbar-right.font-thin li a.bord-rad:hover span{
   color: #ffffff;
   border-radius: 25px;
   border-color: transparent;
+}
+.user__caret{
+  position: relative;
+}
+.user__caret .dropdown-menu{
+  left: unset;
+  right: 0px;
+  border-radius: 0px;
+}
+.user__caret .dropdown-menu a{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 7px;
+  background: #215ca0;
+}
+.user__caret .dropdown-menu a:hover{
+  background: #032E61;
+  color: #ffffff !important;
 }
 .fixed {
 	position: fixed;
