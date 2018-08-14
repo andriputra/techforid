@@ -2737,6 +2737,14 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .certificate__box-top .certificate__button a.btn.btn-down{
   margin-bottom: 0px;
 }
+.certificate__box-top .certificate__button a.btn.default{
+  color: #9AA0AB;
+  background: transparent;
+  border-color: #9AA0AB;
+}
+.certificate__box-top .certificate__button a.btn.default:hover{
+  background: #E6E7E9;
+}
 .page.certificate{
   margin-bottom: 40px;
 }
@@ -2853,6 +2861,32 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 }
 .certificate__item .button a.btn.btn-default{
   margin-right: 20px;
+}
+.certificate__item h2 span.value{
+  float: right;
+  font-size: 15px;
+  color: #9AA0AB;
+  display: inline-block;
+}
+.certificate__item h2 span.value i{
+  font-size: 32px;
+  font-style: normal;
+  vertical-align: bottom;
+}
+.certificate__item .box.essay{
+  padding: 15px;
+}
+.certificate__item .box.essay textarea{
+  background: #f5f5f5;
+  padding: 10px;
+  width: 100%;
+  border-color: #E6E7E9;
+}
+.certificate__item .box.essay textarea:hover{
+  border-color: #215CA0;
+}
+.certificate__item .box.essay .button{
+  margin-top: 15px;
 }
 /* End Certificate */
 

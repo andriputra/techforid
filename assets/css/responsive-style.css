@@ -432,6 +432,12 @@
   .certificate__item .button a.btn{
     width: 46%;
   }
+  .certificate__item h2 span.value {
+    float: none;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
 
   footer{
     padding: 40px 0px 20px;
