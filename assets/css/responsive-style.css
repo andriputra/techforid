@@ -476,6 +476,37 @@
   .request .button .btn.btn-blue {
     width: 70%;
   }
+  .detail .tab-pane {
+    padding: 15px;
+  }
+  .detail .tab-pane .box{
+    display: block;
+  }
+  .detail .tab-pane .box.info-user {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .detail .tab-pane .box.info-user button{
+    display: block;
+    margin: 0 auto;
+  }
+  .detail .tab-pane .box.grade {
+    width: 100%;
+  }
+  .detail .tab-pane .box.grade .grade__box {
+    width: 36%;
+  }
+  .list__box .row{
+    margin-bottom: 0px;
+  }
+  .list__box .row .col-12{
+    margin-bottom: 20px;
+  }
+  .detail .nav-tabs .nav-item.nav-link{
+    flex-basis: auto;
+    -webkit-box-flex: auto;
+  }
 
   footer{
     padding: 40px 0px 20px;

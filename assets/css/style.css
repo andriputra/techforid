@@ -2193,6 +2193,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   font-size: 12px;
   font-weight: 400;
 }
+.my-course .box.package__banner .information .video__box .video__description p.progress__info{
+  margin-bottom: 10px;
+}
 .my-course .box.package__banner .information .video__box .video__description .progress,
 .my-course .course__desc .progress{
   height: 5px;
@@ -2206,7 +2209,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #00458E;
 }
 .my-course .box.package__banner .information .video__box .video__description .links{
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .my-course .box.package__banner .information .video__box .video__description .links a.btn{
   background: #00458E;
@@ -3101,12 +3104,151 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .request .button .btn.btn-blue{
   width: 27%;
 }
+.request .button .btn.btn-blue:hover{
+  background: #E6E7E9;
+  color: #00458E;
+  border-color: #E6E7E9;
+}
 .request .button ion-icon{
   font-size: 24px;
   vertical-align: middle;
   margin-right: 10px;
 }
 /* End Essay */
+
+/* Detail */
+.all-course.detail h2.inner{
+  border-bottom: 1px solid #e6e7e9;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.detail .nav-tabs .nav-item.nav-link{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid transparent;
+  color: #9AA0AB;
+  font-weight: 600;
+}
+.detail .nav-tabs .nav-item.nav-link:hover,
+.detail .nav-tabs .nav-item.nav-link.active{
+  color: #00458E;
+  border-bottom: 2px solid #00458E;
+}
+.detail .tab-pane{
+  padding: 23px;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 40px;
+}
+.detail .tab-pane .box{
+  display: inline-block;
+  vertical-align: top;
+}
+.detail .tab-pane .box.info-user{
+  margin-left: 30px;
+}
+.detail .tab-pane .box h5{
+  color: #434A54;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detail .tab-pane .box ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.detail .tab-pane .box ul li{
+  font-size: 12px;
+  color: #9AA0AB;
+}
+.detail .tab-pane .box ul li ion-icon{
+  color: #215ca0;
+}
+.detail .tab-pane .box.info-user{
+  width: 40%;
+}
+.detail .tab-pane .box.info-user button{
+  background: #215CA0;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 8px 30px;
+  font-weight: 600;
+}
+.detail .tab-pane .box.info-user button i{
+  font-size: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.detail .tab-pane .box.info-user button:hover{
+  background: #032E61;
+}
+.detail .tab-pane .box.clip-image img{
+  width: 100%;
+}
+.detail .tab-pane .box.grade{
+  width: 25%;
+  text-align: center;
+  padding-top: 10px;
+}
+.detail .tab-pane .box.grade .grade__box{
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #e6e7e9;
+  border-radius: 5px;
+}
+.detail .tab-pane .box.grade .grade__box span{
+  display: block;
+}
+.detail .tab-pane .box.grade .grade__box span.title{
+  background: #00a1e0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 3px;
+}
+.detail .tab-pane .box.grade .grade__box span.info{
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #00a1e0;
+  padding: 25px 0px;
+  background: #F5F5F5;
+}
+.list__box .row{
+  margin-bottom: 20px;
+}
+.list__box .list{
+  border: 1px solid #E6E7E9;
+  border-radius: 5px;
+  min-height: 207px;
+}
+.list__box .list:hover{
+  box-shadow: 0px 0px 8px rgba(0,69,142,0.3), 0px 0px 8px rgba(0,69,142,0.3);
+}
+.list__box .list h5{
+  color: #434A54;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  background: #F5F5F5;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 1px solid #E6E7E9;
+  padding: 20px 15px;
+}
+.list__box .list .text__class{
+  padding: 18px 18px 5px 18px;
+}
+.list__box .list .text__class p{
+  color: #9AA0AB;
+}
+.list__box .list .text__class p span{
+  color: #434A54;
+}
+/* End Detail */
 
 footer{
   background-color: #434A54;
