@@ -2737,6 +2737,123 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .certificate__box-top .certificate__button a.btn.btn-down{
   margin-bottom: 0px;
 }
+.page.certificate{
+  margin-bottom: 40px;
+}
+.sidebar__content {
+  margin-bottom: 40px;
+}
+.sidebar__content .sidebar__title{
+  border: 1px solid #E6E7E9;
+  padding: 12px 15px;
+}
+.sidebar__content .sidebar__title h5{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #434A54;
+  font-family: 'Open Sans', sans-serif;
+}
+.sidebar__content .sidebar__list{
+  background: #F5F5F5;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e6e7e9;
+}
+.sidebar__content .sidebar__list h5{
+  color: #00458E;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+}
+.sidebar__content .sidebar__list ul{
+  display: block;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+.sidebar__content .sidebar__list ul li{
+  padding: 12px 15px;
+  border-bottom: 1px solid #e6e7e9;
+}
+.sidebar__content .sidebar__list ul li:hover{
+  background: #E6E7E9;
+}
+.sidebar__content .sidebar__list ul li ion-icon,
+.sidebar__content .sidebar__list ul li i{
+  margin-right: 6px;
+  vertical-align: middle;
+  color: #9aa0ab;
+}
+.sidebar__content .sidebar__list ul li.play ion-icon,
+.sidebar__content .sidebar__list ul li:hover ion-icon,
+.sidebar__content .sidebar__list ul li:hover span{
+  color: #00458e;
+}
+.sidebar__content .sidebar__list ul li a{
+  color: #9aa0ab;
+}
+.sidebar__content .sidebar__list ul li:hover a,
+.sidebar__content .sidebar__list ul li:hover i{
+  color: #00458e;
+  text-decoration: none;
+}
+.sidebar__content .sidebar__list ul li span.timer{
+  font-size: 12px;
+  font-weight: 400;
+  float: right;
+}
+.sidebar__content .divider{
+  display: block;
+  height: 40px;
+}
+.certificate__item {
+  padding-left: 30px;
+}
+.certificate__item h2{
+  font-size: 32px;
+  font-weight: 300;
+  color: #222222;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.certificate__item .box{
+  border: 1px solid #E6E7E9;
+  padding: 7px;
+}
+.certificate__item .box img{
+  width: 100%;
+}
+.certificate__item .button{
+  text-align: right;
+  margin-top: 30px;
+}
+.certificate__item .button a.btn{
+  color: #215CA0;
+  border: 1px solid #215CA0;
+  border-radius: 50px;
+  font-size: 14px;
+  width: 23%;
+  padding: 13px 10px;
+  font-weight: 600;
+}
+.certificate__item .button a.btn.btn-blue{
+  background: #215ca0;
+  color: #ffffff;
+}
+.certificate__item .button a.btn i.fa{
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.certificate__item .button a.btn:hover{
+  background: #032E61;
+  color: #ffffff;
+}
+.certificate__item .button a.btn.btn-default{
+  margin-right: 20px;
+}
 /* End Certificate */
 
 footer{

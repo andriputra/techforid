@@ -401,6 +401,37 @@
     margin-bottom: 10px;
     text-align: center;
   }
+  .certificate__box-top{
+    padding: 15px;
+  }
+  .certificate__box-top .certificate__text {
+    width: 68%;
+  }
+  .certificate__box-top .certificate__info {
+    width: 30%;
+  }
+  .certificate__box-top .certificate__percent {
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .certificate__box-top .certificate__button a.btn {
+    background: #00458E;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 9px 25px;
+    margin-right: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  s}
+  .certificate__item{
+    padding-left: 0px;
+  }
+  .certificate__item .button a.btn{
+    width: 46%;
+  }
 
   footer{
     padding: 40px 0px 20px;
