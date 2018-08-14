@@ -47,8 +47,24 @@
         </div>
         <div class="certificate__button">
           <a href="#" class="btn btn-detail" data-toggle="modal" data-target="#detailCertificate">Detail</a>
-          <a href="#" class="btn btn-request default">Request Ujian</a>
-          <a href="#" class="btn btn-down default">Download Sertifikat</a>
+          <a href="#" id="Req" class="btn btn-request default">Request Ujian</a>
+            <div class="tooltip-box" id="notifUjian">
+              <button type="button" class="close-btn" data-dismiss="" id="closeA">
+                <span>&times;</span>
+              </button>
+              <h5>Maaf Anda belum bisa mengikuti Ujian!</h5>
+              <p>Syarat mengikuti Ujian :</p>
+              <p class="desc">Menonton semuda video, menjawab kuis dan mengerjakan soal latihan.</p>
+            </div>
+          <a href="#" id="Down" class="btn btn-down default">Download Sertifikat</a>
+            <div class="tooltip-box certify" id="notifDown">
+              <button type="button" class="close-btn" data-dismiss="" id="closeB">
+                <span>&times;</span>
+              </button>
+              <h5>Maaf Anda belum bisa mendapatkan Sertifikat!</h5>
+              <p>Syarat mendapatkan Sertifikat :</p>
+              <p class="desc">Menonton semua video, menjawab kuis, mengerjakan Excersice, menyelesaikan Encounter.</p>
+            </div>
         </div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -125,4 +141,23 @@
 
 <script>
 includeHTML();
+
+$(document).ready(function(){
+  $("#notifUjian").hide();
+  $("#notifDown").hide();
+  $("#Req").click(function(){
+    $("#notifUjian").toggle();
+    $("#notifDown").hide();
+  });
+  $("#Down").click(function(){
+    $("#notifDown").toggle();
+    $("#notifUjian").hide();
+  });
+  $("#closeA").click(function(){
+    $("#notifUjian").hide();
+  });
+  $("#closeB").click(function(){
+    $("#notifDown").hide();
+  });
+});
 </script>

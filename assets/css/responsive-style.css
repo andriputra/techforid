@@ -438,6 +438,20 @@
     text-align: right;
     margin-top: 10px;
   }
+  .tooltip-box {
+    width: 100%;
+    right: 0px;
+    z-index: 1;
+    top: 74%;
+  }
+  .tooltip-box.certify {
+    right: 0px;
+    top: 88%;
+  }
+  .tooltip-box::before,
+  .tooltip-box.certify::before {
+    right: 47%;
+  }
 
   footer{
     padding: 40px 0px 20px;

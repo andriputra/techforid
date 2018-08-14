@@ -2658,6 +2658,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   margin-top: 30px;
   margin-bottom: 30px;
   display: block;
+  position: relative;
 }
 .certificate__box-top .certificate__text,
 .certificate__box-top .certificate__info,
@@ -2889,6 +2890,74 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   margin-top: 15px;
 }
 /* End Certificate */
+
+/* Essay */
+.certificate__button{
+  /* position: relative; */
+}
+.tooltip-box{
+  max-width: 400px;
+  background: #E6E7E9;
+  padding: 15px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20%;
+  z-index: 1;
+  top: 58%;
+}
+.tooltip-box::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #E6E7E9 transparent;
+  position: absolute;
+  top: -9px;
+  right: 65px;
+}
+.tooltip-box.certify{
+  right: 30px;
+}
+.tooltip-box.certify::before{
+  right: 84px;
+}
+.tooltip-box button.close-btn{
+  background: #000000;
+  box-shadow: none;
+  border: none;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  padding: 0px;
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  cursor: pointer;
+}
+.tooltip-box button.close-btn span{
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  line-height: 16px;
+  text-align: center;
+}
+.tooltip-box h5{
+  font-size: 16px;
+  color: #434A54;
+  font-weight: 600;
+}
+.tooltip-box p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #434A54;
+}
+.tooltip-box p.desc{
+  color: #9AA0AB;
+}
+/* End Essay */
 
 footer{
   background-color: #434A54;
