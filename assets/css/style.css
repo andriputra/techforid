@@ -3248,6 +3248,40 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .list__box .list .text__class p span{
   color: #434A54;
 }
+.detail-ujian h5{
+  color: #434A54;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.detail-ujian table th:nth-child(3),
+.detail-ujian table th:nth-child(4),
+.detail-ujian table th:nth-child(5){
+  width: 10%;
+  text-align: center;
+}
+.detail-ujian table th,
+.detail-ujian table td{
+  border-top: 1px solid #c0c0c0;
+}
+.detail-ujian table tr.total th,
+.detail-ujian table tr.total td{
+  border-bottom: 1px solid #c0c0c0;
+}
+.detail-ujian table th,
+.detail-ujian table tr.total th:nth-child(2){
+  color: #656565;
+  font-size: 15px;
+}
+.detail-ujian table tr.total th{
+  color: #fe002c;
+}
+.detail-ujian table td:first-child,
+.detail-ujian table td:nth-child(3),
+.detail-ujian table td:nth-child(4),
+.detail-ujian table td:nth-child(5){
+  text-align: center;
+}
 /* End Detail */
 
 footer{
