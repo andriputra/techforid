@@ -2229,7 +2229,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #00458E;
 }
 .my-course .box.package__banner .information .video__box .video__description .links{
-  /* margin-top: 30px; */
+  margin-top: 30px;
 }
 .my-course .box.package__banner .information .video__box .video__description .links a.btn{
   background: #00458E;
