@@ -452,6 +452,20 @@
   .tooltip-box.certify::before {
     right: 47%;
   }
+  .excersice .box.essay ol li{
+    font-size: 13px;
+  }
+  .excersice form.latihan p {
+    margin-bottom: 9px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .excersice form.latihan button.btn-blue{
+    width: 100%;
+  }
+  .certificate__item .button{
+    text-align: center;
+  }
 
   footer{
     padding: 40px 0px 20px;
