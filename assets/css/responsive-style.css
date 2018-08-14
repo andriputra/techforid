@@ -507,6 +507,28 @@
     flex-basis: auto;
     -webkit-box-flex: auto;
   }
+  .performance-box__content .box__item .video .iframe__video,
+  .performance-box__content .box__item .video .iframe__video img{
+    width: 100%;
+  }
+  .performance-box__content .box__item .video h3 {
+    display: block;
+    margin: 15px 0px 0px;
+  }
+  .performance-box__content .count__progress {
+    width: 100%;
+  }
+  .performance-box__content .info__progress {
+    margin-left: 0px;
+  }
+  .performance-box__content .progress__footer span.text{
+    margin-right: 16px;
+  }
+  .performance-box__content .progress__footer .btn{
+    float: none;
+    width: 100%;
+    margin-top: 15px;
+  }
 
   footer{
     padding: 40px 0px 20px;

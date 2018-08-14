@@ -3284,6 +3284,105 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 }
 /* End Detail */
 
+/* My Performance */
+.performance-box__content .box__item{
+  border: 1px solid #E6E7E9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.performance-box__content .box__item:hover{
+  box-shadow: 0px 0px 8px rgba(0,69,142,0.3), 0px 0px 8px rgba(0,69,142,0.3);
+}
+.performance-box__content .box__item .video{
+  padding: 10px;
+}
+.performance-box__content .box__item .video .iframe__video{
+  display: inline-block;
+  margin-right: 30px;
+  background: #222222;
+  width: 19%;
+}
+.performance-box__content .box__item .video h3{
+  display: inline-block;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #434A54;
+}
+.performance-box__content .progress__status{
+  padding: 5px 10px 3px 10px;
+}
+.performance-box__content .count__progress,
+.performance-box__content .info__progress{
+  display: inline-block;
+  vertical-align: middle;
+}
+.performance-box__content .progress,
+.performance-box__content .progress-bar{
+  border-radius: 25px;
+}
+.performance-box__content .bg-cyan{
+  background: #00A1E0;
+}
+.performance-box__content .bg-green{
+  background: #3a8e3d;
+}
+.performance-box__content .bg-dark-blue{
+  background: #032e61;
+}
+.performance-box__content .info__progress{
+  margin-left: 50px;
+}
+.performance-box__content .info__progress p{
+  display: inline-block;
+  margin-bottom: 0px;
+  color: #9AA0AB;
+  line-height: 18px;
+  font-size: 12px;
+}
+.performance-box__content .info__progress p i,
+.performance-box__content .info__progress p ion-icon{
+  color: #215ca0;
+}
+.performance-box__content .count__progress{
+  width: 70%;
+}
+.performance-box__content .progress__footer{
+  border-top: 1px solid #E6E7E9;
+  background: #F5F5F5;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 17px 15px;
+  line-height: 32px;
+}
+.performance-box__content .progress__footer span.text{
+  color: #434A54;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.performance-box__content .progress__footer span.percentage{
+  color: #00A1E0;
+  font-size: 32px;
+  font-weight: 600;
+  vertical-align: sub;
+  margin-left: 10px;
+}
+.performance-box__content .progress__footer .btn{
+  background: #215CA0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 6px 0px;
+  width: 30%;
+  float: right;
+}
+.performance-box__content .progress__footer .btn:hover{
+  background: #032E61;
+}
+/* End My Performance */
+
 footer{
   background-color: #434A54;
   color: #B5BABF;
