@@ -466,6 +466,16 @@
   .certificate__item .button{
     text-align: center;
   }
+  .request .box.essay ol{
+    padding-left: 20px;
+  }
+  .request .box.essay.date span.title{
+    width: auto;
+    margin-right: 12px;
+  }
+  .request .button .btn.btn-blue {
+    width: 70%;
+  }
 
   footer{
     padding: 40px 0px 20px;
