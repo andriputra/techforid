@@ -586,6 +586,15 @@
   .comment__box .comment__header .author__info span {
     font-size: 10px;
   }
+  .order__history table td{
+    padding: 8px 8px;
+  }
+  .order__history table td img.img-fluid{
+    max-width: 40px;
+  }
+  .order__history table td a.btn{
+    padding: 8px 14px;
+  }
 
   footer{
     padding: 40px 0px 20px;
