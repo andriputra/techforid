@@ -2465,6 +2465,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   padding: 18px 30px;
   width: 100%;
 }
+.sidebar__event{
+  position: relative;
+}
 .my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation.follow.upcoming .table tr.first{
   border-left: 8px solid #EEAE15;
 }
@@ -3579,13 +3582,16 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   margin-bottom: 20px;
 }
 .comunication__content .author,
-.comunication__content .textarea{
+.comunication__content .textarea,
+.dashboard .comment__box .comment__header .author{
   vertical-align: text-top;
 }
-.comunication__content .author{
+.comunication__content .author,
+.dashboard .comment__box .comment__header .author{
   width: 10%;
 }
-.comunication__content .author img{
+.comunication__content .author img,
+.dashboard .comment__box .comment__header .author img{
   width: 70%;
 }
 .comunication__content .textarea{
@@ -3817,6 +3823,253 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #032E61;
 }
 /* End Order-history */
+
+/* Dashboard */
+.dashboard .notification{
+  border: 1px solid #E6E7E9;
+  margin-top: 20px;
+  position: relative;
+}
+.dashboard .notification button{
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  z-index: 99;
+  border: none;
+  font-size: 12px;
+  color: #3c73a6;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 0px;
+  line-height: 12px;
+  height: 12px;
+  width: 12px;
+}
+.dashboard .notification button:hover{
+  cursor: pointer;
+}
+.information__circle{
+  position: absolute;
+  left: -24px;
+  color: #9aa0ab;
+  font-size: 24px;
+}
+.information__circle:focus{
+  outline: none;
+}
+.dashboard .comunication__content{
+  margin-top: 20px;
+}
+.dashboard .notification .header__notif{
+  background: url('../img/bground-profile.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 145px;
+}
+.dashboard .notification .header__notif .notif{
+  position: relative;
+  right: -80px;
+  bottom: 20px;
+  color: #9AA0AB;
+  font-size: 12px;
+}
+.dashboard .notification .header__notif h5{
+  margin-bottom: 0px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 12px;
+  left: 27%;
+}
+.dashboard .notification .header__notif h5 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.dashboard .notification .header__notif h5 a:hover{
+  color: #05479a;
+}
+.dashboard .notification .header__notif .notif i.online{
+  display: inline-block;
+  background: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #b5babf;
+}
+.dashboard .notification .notif__text{
+  background: #f5f5f5;
+  padding: 70px 20px 20px;
+}
+.dashboard .notification .notif__text p{
+  margin-bottom: 0px;
+  color: #434A54;
+  font-size: 15px;
+}
+.dashboard .notification .notif__text p strong{
+  color: #00a1e0;
+}
+.dashboard .notification .footer__notif{
+  padding: 10px 20px;
+  border-top: 1px solid #e6e7e9;
+}
+.dashboard .notification .footer__notif p{
+  color: #434A54;
+  margin-bottom: 0px;
+  line-height: 43px;
+}
+.dashboard .notification .footer__notif p:hover{
+  color: #0356ba;
+}
+.dashboard .notification .footer__notif a.btn{
+  background: #ffffff;
+  color: #215CA0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  float: right;
+  padding: 10px 20px;
+  border-color: #215CA0;
+  vertical-align: middle;
+}
+.dashboard .notification .footer__notif a.btn:hover{
+  background: #215CA0;
+  color: #ffffff;
+}
+.dashboard .notification .header__notif .user-image{
+  display: inline-block;
+  position: absolute;
+  width: 19%;
+  bottom: -72px;
+  left: 6%;
+}
+.dashboard .notification .header__notif .user-image img{
+  border: 3px solid #b5babf;
+}
+.dashboard .reply__box_info .reply.user{
+  width: 39%;
+}
+.dashboard .comment__box .comment__header .author img{
+  margin-top: 6px;
+}
+.dashboard .reply__box_info .reply.user img{
+  width: 15%;
+}
+.dashboard .reply__box_info .reply.user span.count__circle{
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+}
+.tooltip-text{
+  font-size: 10px;
+}
+.dashboard .ask__box{
+  border: 1px solid #e6e7e9;
+  margin-bottom: 40px;
+}
+.dashboard .ask__box h2{
+  color: #434A54;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding: 13px 20px;
+}
+.dashboard .comunication__content form{
+  margin-bottom: 0px;
+}
+.dashboard .comunication__content .ask__content{
+  background: #f5f5f5;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #e6e7e9;
+  padding: 20px;
+}
+.dashboard .comunication__content .author.top{
+  width: 17%;
+}
+.dashboard .comunication__content .textarea.top{
+  width: 82%;
+}
+.dashboard .comunication__content .textarea.top textarea{
+  border: none;
+  padding: 0px;
+  font-style: italic;
+}
+.left-block{
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  vertical-align: middle;
+}
+.left-block a{
+  font-size: 18px;
+  color: #aaafb8;
+}
+.dashboard .comunication__content form .btn{
+  margin: 10px 10px 10px 0px;
+}
+.left-block a.icon1{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.left-block a.icon2,
+.left-block a.icon3,
+.left-block a.icon4{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+.dashboard .comunication__content .ask__content.mr-top{
+  background: transparent;
+  border: none;
+  padding: 0px;
+}
+.modal-information .modal-header{
+  background: url('../img/bground-profile.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.modal.modal-information .modal-dialog{
+  max-width: 587px;
+}
+.modal.modal-information .modal-body{
+  padding: 30px 40px;
+}
+.modal.modal-information .modal-body .question{
+  margin-bottom: 30px;
+}
+.modal.modal-information .modal-body .question p{
+  margin-bottom: 10px;
+}
+.modal.modal-information .modal-body .question p,
+.modal.modal-information .modal-body .question label{
+  color: #434A54;
+  font-size: 15px;
+}
+.modal.modal-information .modal-body .question .custom-control{
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+.modal.modal-information .modal-body .question textarea{
+  background: #f5f5f5;
+  border-radius: 0px;
+}
+.modal.modal-information .modal-body button.btn{
+  float: right;
+  background: #01458e;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 4px 20px;
+}
+.modal.modal-information .modal-body button.btn:hover{
+  background: #032E61;
+}
+.red{
+  color: #f05247;
+}
+/* End Dashboard */
 
 footer{
   background-color: #434A54;
