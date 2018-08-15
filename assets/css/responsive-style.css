@@ -596,8 +596,9 @@
     padding: 8px 14px;
   }
   .information__circle {
-    left: 0px;
-    top: -14px;
+    left: unset;
+    top: 3px;
+    right: 5px;
   }
   .dashboard .notification .header__notif .user-image{
     bottom: -47px;
@@ -636,6 +637,75 @@
     height: 28px;
     line-height: 28px;
     font-size: 10px;
+  }
+  .modal-information .header .header__title {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .modal-information .header h5{
+    font-size: 2em;
+  }
+  .modal.modal-information .modal-body {
+    padding: 20px 20px;
+  }
+  .shopping-cart .breadcrumb{
+    min-height: 0px;
+  }
+  .shopping-cart .breadcrumb::before{
+    height: 100%;
+  }
+  .sopping-cart.inner-content ul{
+    margin: 40px auto 40px;
+    width: 100%;
+  }
+  .sopping-cart.inner-content ul li.done::before,
+  .sopping-cart.inner-content ul li.process::before{
+    content: none;
+  }
+  .sopping-cart.inner-content ul li span{
+    font-size: 12px;
+    width: 100%;
+  }
+  .table__cart {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .table__cart td{
+    padding: 6px;
+  }
+  .table__cart td.image-product {
+    width: 20%;
+  }
+  .table__cart td span.title {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .table__cart td span.author{
+    font-size: 10px;
+  }
+  .table__cart td.price{
+    width: 25%;
+  }
+  .table__cart td.price span.strong{
+    font-size: 13px;
+  }
+  .table__cart td.price span.discount{
+    font-size: 10px
+  }
+  .checkout__box p{
+    text-align: center;
+  }
+  .checkout__box span.total-price{
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .coupon__box .form-group {
+    text-align: center;
+  }
+  .slider-section .slider__content .slider__title {
+    padding-bottom: 20px;
+    text-align: center;
   }
 
   footer{
