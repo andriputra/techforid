@@ -595,6 +595,48 @@
   .order__history table td a.btn{
     padding: 8px 14px;
   }
+  .information__circle {
+    left: 0px;
+    top: -14px;
+  }
+  .dashboard .notification .header__notif .user-image{
+    bottom: -47px;
+  }
+  .dashboard .notification .header__notif .notif{
+    right: unset;
+    left: 100%;
+  }
+  .dashboard .notification .notif__text{
+    padding: 40px 20px 20px;
+  }
+  .dashboard .notification .footer__notif{
+    text-align: center;
+    padding: 10px 20px 20px;
+  }
+  .dashboard .notification .footer__notif a.btn{
+    float: none;
+  }
+  .dashboard .comunication__content .ask__content{
+    padding: 15px;
+  }
+  .dashboard .comunication__content .textarea.top {
+    width: 80%;
+  }
+  .left-block{
+    width: 60%;
+  }
+  .left-block a.icon2, .left-block a.icon3, .left-block a.icon4{
+    width: 20%;
+  }
+  .dashboard .reply__box_info .reply.user {
+    width: 60%;
+  }
+  .dashboard .reply__box_info .reply.user span.count__circle {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 10px;
+  }
 
   footer{
     padding: 40px 0px 20px;
