@@ -407,7 +407,8 @@
   .certificate__box-top .certificate__text {
     width: 68%;
   }
-  .certificate__box-top .certificate__info {
+  .certificate__box-top .certificate__info,
+  .comunication__content form.asking button {
     width: 30%;
   }
   .certificate__box-top .certificate__percent {
@@ -528,6 +529,62 @@
     float: none;
     width: 100%;
     margin-top: 15px;
+  }
+  .course .certificate__box-top .certificate__text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .icon-quiz{
+    width: 14%;
+  }
+  .course .certificate__box-top .certificate__info {
+    width: 75%;
+  }
+  .video__tron iframe{
+    height: auto;
+  }
+  .comunication__content .tab-pane {
+    padding: 10px;
+  }
+  .comunication__content .ask__box h5 {
+    font-size: 16px;
+  }
+  .comunication__content .author {
+    width: 15%;
+  }
+  .comunication__content .textarea,
+  .comment__box .comment__header .author__info{
+    width: 83%;
+  }
+  .comunication__content form.asking button {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .reply__box_info .reply.user{
+    width: 60%;
+  }
+  .reply__box_info .reply.user span.count__circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+  }
+  .reply__box_info .reply.user .more__info {
+    width: 49%;
+    font-size: 10px;
+    margin-left: 40px;
+    vertical-align: top;
+    line-height: 12px;
+  }
+  .reply__box_info .reply.share{
+    margin-top: 0px;
+  }
+  .reply__comment_box{
+    padding: 10px 10px 0px;
+  }
+  .comment__box .comment__header .author__info i,
+  .comment__box .comment__header .author__info span {
+    font-size: 10px;
   }
 
   footer{
