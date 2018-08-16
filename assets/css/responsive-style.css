@@ -707,6 +707,58 @@
     padding-bottom: 20px;
     text-align: center;
   }
+  .total__row h2 span.total{
+    font-size: 24px;
+    display: block;
+  }
+  .checkout__payment .card-item {
+    float: none;
+  }
+  .checkout__payment .form-field,
+  .checkout__payment .footer__submit button{
+    width: 100%;
+  }
+  .checkout__payment input.form-control,
+  .checkout__payment select.form-control {
+    height: 40px;
+  }
+  .checkout__payment .footer__submit .terms {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .checkout__payment .footer__submit .secure {
+    color: #b5babf;
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+  }
+  .checkout__payment .footer__submit .secure i.fa-lock{
+    position: unset;
+  }
+  .checkout__payment .remember{
+    margin-top: 15px;
+  }
+  .checkout__payment .header__inner p {
+    width: 100%;
+    line-height: 20px;
+  }
+  .checkout__payment .cyan__info{
+    margin-bottom: 20px;
+  }
+  .checkout__payment .header__inner .img-logo-card {
+    display: inline-block;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .checkout__payment .checked__inner div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 
   footer{
     padding: 40px 0px 20px;

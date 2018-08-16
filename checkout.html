@@ -247,33 +247,149 @@
           <div class="total__row">
             <h2><span class="total">Total: Rp. 1.000.000,-</span> <span class="discount">Rp. 300rb</span>  <span class="percent">15% off</span></h2>
           </div>
-          <div id="accordion">
+          <div id="accordion" class="checkout__payment">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
+                  <div class="custom-control custom-radio" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Credit Card</label>
+                    <div class="card-item">
+                      <img src="assets/img/mastercard.png" alt="mastercard" class="img-fluid master">
+                      <img src="assets/img/visa.png" alt="visa" class="img-fluid visa">
+                    </div>
+                  </div>
                 </h5>
               </div>
 
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <form>
+                    <div class="form-field">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="number_card" placeholder="Card Number">
+                      </div>
+                      <div class="form-row inline-form">
+                        <div class="input-group form-group col-md-8">
+                          <input type="text" class="form-control" id="Month" placeholder="MM">
+                          <input type="text" class="form-control" id="Year" placeholder="YYYY">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <input type="text" class="form-control" id="SecureCode" placeholder="Security Code">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="NameCard" placeholder="Name on Card">
+                      </div>
+                      <div class="form-row country-form">
+                        <div class="form-group col-md-8">
+                          <input type="text" class="form-control" id="Month" placeholder="Indonesia">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <input type="text" class="form-control" id="Year" placeholder="Zip/Postal Code">
+                        </div>
+                      </div>
+                      <div class="form-group row method">
+                        <div class="col-sm-5">
+                          <label for="colFormLabelSm" class="">Payment method</label></div>
+                        <div class="col-sm-7">
+                          <div class="form-check form-check-inline custom custom-checkbox mr-sm-2">
+                            <input class="form-check-input custom-control-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label custom-control-label" for="inlineCheckbox1">Full Cash</label>
+                          </div>
+                          <div class="form-check form-check-inline custom-checkbox mr-sm-2">
+                            <input class="form-check-input custom-control-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label custom-control-label" for="inlineCheckbox2">Credit 0%</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col-sm-5">
+                          <label>The duration of the installment</label>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="form-group-select">
+                            <select class="form-control">
+                              <option selected>-- Choose one --</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="custom-control custom-checkbox remember">
+                        <input type="checkbox" class="custom-control-input" id="Remember">
+                        <label class="custom-control-label" for="Remember">Remember this card</label>
+                      </div>
+                    </div>
+                    <div class="footer__submit">
+                      <button type="submit" class="btn btn-primary">PROCESED</button>
+                      <div class="terms">
+                        <p>By completing your purchase, you agree to these <a href="#">Terms of Service</a></p>
+                      </div>
+                      <div class="secure">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <span>Secure Connection</span>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
+                  <div class="custom-control custom-radio collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">Virtual Account (Dicek Otomatis)</label>
+                  </div>
                 </h5>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <div class="header__inner">
+                    <p>Pilih Bank terpercaya Anda untuk melakukan transfer Bank BCA, Mndiri dan ATM Bersama</p>
+                    <div class="img-logo-card">
+                      <img src="assets/img/mandiri.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/bca.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/atm-bersama.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="cyan__info">
+                    <p>Please note that with this payment option, w will not hold stock untill you have made your payment. To secure your items, please kindly transfer the paymen immediately.
+                    Payment transfer has to be made within 24 hours, otherwise the order will automatically canceled. Transfer using virtual account in verified with real time verification.</p>
+                  </div>
+                  <div class="checked__inner">
+                    <div class="form-check form-check-inline custom custom-checkbox mr-sm-2">
+                      <input class="form-check-input custom-control-input" type="checkbox" id="ATM1" value="option1">
+                      <label class="form-check-label custom-control-label" for="ATM1">
+                        <img src="assets/img/mandiri.jpg" alt="" class="img-fluid">
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline custom-checkbox mr-sm-2">
+                      <input class="form-check-input custom-control-input" type="checkbox" id="ATM2" value="option2">
+                      <label class="form-check-label custom-control-label" for="ATM2">
+                        <img src="assets/img/bca.jpg" alt="" class="img-fluid">
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline custom-checkbox mr-sm-2">
+                      <input class="form-check-input custom-control-input" type="checkbox" id="ATM3" value="option2">
+                      <label class="form-check-label custom-control-label" for="ATM3">
+                        <img src="assets/img/atm-bersama.png" alt="" class="img-fluid">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="footer__submit">
+                    <button type="submit" class="btn btn-primary">PROCESED</button>
+                    <div class="terms">
+                      <p>By completing your purchase, you agree to these <a href="#">Terms of Service</a></p>
+                    </div>
+                    <div class="secure">
+                      <i class="fa fa-lock" aria-hidden="true"></i>
+                      <span>Secure Connection</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
