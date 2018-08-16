@@ -759,6 +759,15 @@
     width: 100%;
     margin-bottom: 15px;
   }
+  .step .card-body ol{
+    padding-left:25px;
+  }
+  .step .card-body ol li{
+    margin-bottom: 10px;
+  }
+  .checkout__payment .step .card-header button{
+    font-size: 14px;
+  }
 
   footer{
     padding: 40px 0px 20px;
