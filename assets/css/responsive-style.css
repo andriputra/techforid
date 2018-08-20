@@ -344,6 +344,21 @@
   .package .box_package__step .box.step3 ul.list__item_materi li{
     margin-bottom: 20px;
   }
+  .package .slider-section .slider__item .item {
+    margin-left: 0px;
+    border: none;
+    width: 100%;
+  }
+  .package .slider-section .slider__content .owl-stage-outer::before,
+  .package .box_package__step .box.step3 .item ul.step_by_step li.play::after{
+    top: 20px;
+  }
+  .package .box_package__step .box.step3 .item ul.step_by_step li.play::after{
+    left: 0px;
+  }
+  .package .box_package__step .box.step3 .item ul.step_by_step{
+    margin: 0px 0px 30px;
+  }
   .event .all-course .all-course__filter .split__filter.search {
     margin: 0px 0px 0px 0px;
     width: 100%;
@@ -771,6 +786,13 @@
   .modal.exercise .modal-footer button{
     width: 50%;
   }
+  .slider-section.inner__desc .slider__item .item .slider__header{
+    width: 100%;
+  }
+  .slider-section.inner__desc .slider__item .item .slider__header img {
+    position: absolute;
+    left: 30%;
+  }
 
   footer{
     padding: 40px 0px 20px;
@@ -821,6 +843,11 @@
     margin-bottom: 20px;
     width: 45%;
     margin: 0px 10px 20px;
+  }
+  .package .slider-section .slider__item .item {
+    margin-left: 0px;
+    border: none;
+    width: 100%;
   }
   .event .all-course .course__list > ul li {
     width: 45%;
