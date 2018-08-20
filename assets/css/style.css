@@ -1313,6 +1313,70 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .package ul.list__item_materi li .box__materi .box__description button.btn-progress.done{
   background: #032e61;
 }
+.package .slider-section{
+  padding: 0px;
+}
+.package .slider-section .slider__content .owl-stage-outer{
+  position: relative;
+}
+.package .slider-section .slider__content .owl-stage-outer::before{
+  position: absolute;
+  content: '';
+  height: 3px;
+  background-color: #b5babf;
+  left: 0px;
+  top: 25px;
+  z-index: 0;
+  display: block;
+  width: 98%;
+}
+.package .slider-section .slider__item .item{
+  margin-left: 1px;
+  border: none;
+}
+.package .slider-section .slider__content .slider__item .owl-nav .owl-prev{
+  left: -55px;
+}
+.package .slider-section .slider__content .slider__item .owl-nav .owl-next{
+  right: -55px;
+}
+.package .slider-section .slider__content .slider__item .owl-theme .owl-dots{
+  text-align: center;
+}
+.package .slider-section .slider__item .item:hover{
+  box-shadow: none;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step li{
+  width: 100%;
+  text-align: center;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step li span.number{
+  margin-left: 0px;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step{
+  margin: 0px 0px 70px;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step::before,
+.package .box_package__step .box.step3 .item ul.step_by_step li:first-child::before{
+  content: none;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step li{
+  margin-left: 0px;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step li.play{
+  position: relative;
+}
+.package .box_package__step .box.step3 .item ul.step_by_step li.play::after{
+  content: '';
+  height: 3px;
+  width: 100%;
+  display: inline-block;
+  background-color: #00458E;
+  position: absolute;
+  left: 89px;
+  top: 25px;
+  z-index: -1;
+}
 /* End Course Package */
 
 /* Event */
@@ -2218,7 +2282,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   width: 40px;
   height: 24px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 .slider-section.inner__desc .slider__item .owl-carousel	.owl-stage {
 	display: flex;
