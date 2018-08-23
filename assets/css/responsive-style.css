@@ -86,9 +86,12 @@
     display: inline-block;
     text-align: center;
     margin: 6px 0px;
+    width: auto;
   }
   header nav.navbar .navbar-nav.navbar-right>li:last-child{
     text-align: center;
+    width: auto;
+    margin-left: 0px;
   }
   header nav.navbar .navbar-nav>li.notification>.dropdown-menu::before{
     content: none;

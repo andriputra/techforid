@@ -84,6 +84,20 @@ header nav.navbar .navbar-nav>li>a span.notif{
 header nav.navbar .navbar-nav.navbar-right>li:last-child{
   display: block;
   text-align: right;
+  width: 50%;
+  margin-left: 25px;
+}
+header nav.navbar .navbar-nav.navbar-right>li.signup:last-child{
+  width: auto;
+  margin-left: 0px;
+}
+header nav.navbar .navbar-nav>li> .user-log{
+  width: 100%;
+  display: block;
+}
+header nav.navbar .navbar-nav>li.notification{
+  width: 13%;
+  text-align: center;
 }
 header nav.navbar .navbar-nav>li> .user-log .user__photo,
 header nav.navbar .navbar-nav>li> .user-log .user__info,
@@ -100,12 +114,13 @@ header nav.navbar .navbar-nav>li> .user-log .user__info .name{
   font-weight: 700;
   font-family: 'Open Sans',sans-serif;
   display: block;
-  line-height: 6px;
+  word-break: break-all;
+  line-height: 12px;
+  white-space: pre-line;
 }
 header nav.navbar .navbar-nav>li> .user-log .user__info{
-  margin-top: 7px;
   text-align: left;
-  width: 38%;
+  width: 62%;
 }
 header nav.navbar .navbar-nav>li> .user-log .user__info .level{
   font-size: 11px;
