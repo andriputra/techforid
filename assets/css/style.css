@@ -4311,7 +4311,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   vertical-align: top;
   position: relative;
 }
-.sopping-cart.inner-content ul li:nth-child(2)::before{
+.sopping-cart.inner-content ul li.done::before{
   content: '';
   background-color: #215ca0;
   height: 3px;
@@ -4319,6 +4319,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   right: 99px;
   top: 30%;
   position: absolute;
+}
+.sopping-cart.inner-content ul li.done:first-child::before{
+  content: none;
 }
 .sopping-cart.inner-content ul li:last-child{
 }
