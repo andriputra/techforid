@@ -2531,7 +2531,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   font-family: 'FontAwesome';
   position: absolute;
   right: 11px;
-  top: 1px;
+  top: 5px;
 }
 .my-course .sidebar__event.my__course-sidebar .box.leaderboard .tabulation .nav-tabs>li a{
   border: none;
@@ -2640,7 +2640,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   border-top: 1px solid #e6e7e9;
 }
 .recom_link a{
-  color: #9AA0AB;
+  color: #1193D4;
 }
 .recom_link a:hover{
   color: #215CA0;
@@ -3305,10 +3305,11 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 }
 .request .box.essay.date .split__filter{
   display: inline-block;
+  vertical-align: middle;
 }
 .request .box.essay.date .split__filter select{
   border-radius: 50px;
-  padding: 0px 30px;
+  padding: 0px 36px 0px 10px;
   height: 40px;
   font-size: 14px;
   border-color: #f5f5f5;
@@ -3610,6 +3611,9 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 }
 .icon-quiz span{
   color: #9AA0AB;
+}
+.icon-quiz a{
+  text-decoration: none;
 }
 .course .certificate__box-top .certificate__info{
   width: 10%;
@@ -3950,6 +3954,84 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   background: #D1D1D1;
   text-decoration: none;
 }
+.modal.quiz .modal-content{
+  border-radius: 10px;
+  border-color: #B5B5B5;
+}
+.modal.quiz .modal-dialog{
+  max-width: 604px;
+}
+.modal.quiz .modal-head{
+  position: relative;
+  background: #215CA0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 40px 40px 0px 40px;`
+}
+.modal.quiz .modal-head span.text{
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 73px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.modal.quiz .modal-head button{
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+}
+.modal.quiz .modal-head button span{
+  text-shadow: none;
+}
+.modal.quiz .modal-body{
+  background-color: #f5f5f5;
+  padding: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.modal.quiz .question p,
+.modal.quiz .question label{
+  color: #434A54;
+  font-size: 18px;
+}
+.modal.quiz .question p{
+  border-bottom: 1px solid #434A54;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.modal.quiz .question label{
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+}
+.modal.quiz .question .custom-radio{
+  margin-bottom: 10px;
+}
+.modal.quiz .button{
+  text-align: center;
+}
+.modal.quiz .button button{
+  margin-top: 30px;
+  background: #215CA0;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 18px;
+  box-shadow: none;
+  width: 50%;
+  font-weight: 600;
+  border: none;
+  padding: 15px 0px;
+}
+.modal.quiz .button button:hover{
+  background: #032E61;
+}
 /* End Course */
 
 /* Order-history */
@@ -3990,12 +4072,24 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   font-size: 14px;
 }
 .order__history table td span.status.go{
-  color: #398E3D;
-  font-size: 14px;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline-block;
+  background: #398E3D;
+  padding: 3px 8px;
+  border-radius: 3px;
+  width: 55%;
+  text-align: center;
 }
 .order__history table td span.status.pending{
-  color: #F05247;
-  font-size: 14px;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline-block;
+  background: #F05247;
+  padding: 3px 8px;
+  border-radius: 3px;
+  width: 55%;
+  text-align: center;
 }
 .order__history table td:last-child{
   width: 12%;
@@ -4012,6 +4106,19 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 }
 .order__history table td a.btn:hover{
   background: #032E61;
+}
+.order__history .pending{
+  position: relative;
+}
+.order__history .pending .tooltip-box{
+  width: 400px;
+  top: 52px;
+}
+.order__history .pending .tooltip-box .red{
+  color: #F44336;
+}
+.order__history .pending .tooltip-box p{
+  margin-bottom: 0px;
 }
 /* End Order-history */
 

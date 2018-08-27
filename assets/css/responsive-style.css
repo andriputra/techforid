@@ -796,6 +796,9 @@
     position: absolute;
     left: 30%;
   }
+  .modal.quiz .modal-head span.text{
+    font-size: 36px;
+  }
 
   footer{
     padding: 40px 0px 20px;

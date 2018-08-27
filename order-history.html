@@ -423,7 +423,7 @@
                     <td><span class="title">Belajar design...</span><span class="date">08/16/2018</span></td>
                     <td><span class="pricelist">IDR. 500.000</span></td>
                     <td><span class="numeric">12345678</span></td>
-                    <td><span class="status go">Mulai belajar</span></td>
+                    <td><a href="my-course.html"><span class="status go">Mulai belajar</span></a></td>
                     <td><a href="detail.html" class="btn btn-blue">Detail</a></td>
                   </tr>
                   <tr>
@@ -432,7 +432,16 @@
                     <td><span class="title">Belajar design...</span><span class="date">08/16/2018</span></td>
                     <td><span class="pricelist">IDR. 500.000</span></td>
                     <td><span class="numeric">12345678</span></td>
-                    <td><span class="status pending">Pending</span></td>
+                    <td class="pending">
+                      <span class="status pending" id="Pending">Pending</span>
+                      <div class="tooltip-box" id="notifPending">
+                        <button type="button" class="close-btn" data-dismiss="" id="closePending">
+                          <span>&times;</span>
+                        </button>
+                        <h5 class="red">Maaf Anda belum dapat melanjutkan kursus ini!</h5>
+                        <p class="desc">Pembayaran Anda sedang di proses</p>
+                      </div>
+                    </td>
                     <td><a href="detail.html" class="btn btn-blue">Detail</a></td>
                   </tr>
                 </tbody>
@@ -547,4 +556,16 @@ $('.owl-carousel.slider__low_item').owlCarousel({
         }
     }
 })
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#notifPending").hide();
+  $("#Pending").click(function(){
+    $("#notifPending").toggle();
+  });
+  $("#closePending").click(function(){
+    $("#notifPending").hide();
+  });
+});
 </script>

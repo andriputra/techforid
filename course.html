@@ -201,8 +201,10 @@
           <span>2 of 5 items complete</span>
         </div>
         <div class="icon-quiz">
-          <img src="assets/img/icon-quiz.png" alt="" class="img-fluid">
-          <span class="text">Quiz</span>
+          <a href="#" data-toggle="modal" data-target="#quiz">
+            <img src="assets/img/icon-quiz.png" alt="" class="img-fluid">
+            <span class="text">Quiz</span>
+          </a>
         </div>
         <div class="certificate__info">
           <p class="vid">Video : 20/26</p>
@@ -595,9 +597,45 @@
   </div>
 </div>
 
-<script>
-includeHTML();
+<div class="modal quiz fade" id="quiz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-head">
+        <button type="button" class="close btn-diss" data-dismiss="modal" aria-label="Close">
+          <span class="times-cls" aria-hidden="true">&times;</span>
+        </button>
+        <img src="assets/img/icon-quiz-head.png">
+        <span class="text">Quiz</span>
+      </div>
+      <div class="modal-body">
+        <div class="question">
+          <p>Fungsi dari CSS terhaddap halaman web adalah...</p>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio11" name="customRadio2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio11">Untuk mempercantik halaman website</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio22" name="customRadio2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio22">Untuk memproses halaman Website</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio33" name="customRadio2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio33">Untuk membuat struktur Website</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio44" name="customRadio2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio44">Untuk mempercepat proses Data</label>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit" name="button">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<script>
 $(document).ready(function(){
   $("#notifUjian").hide();
   $("#notifDown").hide();
