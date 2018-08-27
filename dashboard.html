@@ -223,11 +223,11 @@
             <div class="box follow">
               <ul>
                 <li>
-                  <p>Menikuti</p>
+                  <p data-toggle="modal" data-target="#Follow">Mengikuti</p>
                   <span>311</span>
                 </li>
                 <li>
-                  <p>Menikuti</p>
+                  <p data-toggle="modal" data-target="#Follower">Pengikut</p>
                   <span>914</span>
                 </li>
               </ul>
@@ -936,6 +936,44 @@
           </div>
           <button type="submit" name="button" class="btn btn-blue">Submit</button>
         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade follow" id="Follow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <form class="" action="index.html" method="post">
+          <div class="form-group">
+            <label for="search">Cari Teman : </label>
+            <div class="search-box">
+              <input type="text" class="form-control" id="search" placeholder="Cari teman ...">
+              <button type="submit" class="btn-search"><ion-icon name="search"></ion-icon></button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="box-follow">
+              <table class="table">
+                <tr>
+                  <td>
+                    <img src="assets/img/author.jpg" class="img-fluid rounded-circle">
+                  </td>
+                  <td><span>Vanesia</span></td>
+                  <td><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Ikuti</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
