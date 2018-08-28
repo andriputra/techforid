@@ -3337,12 +3337,41 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
   vertical-align: middle;
   margin-right: 10px;
 }
+.modal.info-alert .modal-body{
+  padding: 30px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.modal.info-alert .desc-information p{
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #545454;
+}
+.modal.info-alert .footer{
+  margin-top: 30px;
+}
+.modal.info-alert .footer a{
+  display: inline-block;
+  padding: 5px 30px;
+  background: #01458e;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.modal.info-alert .footer a.yes:hover{
+  background: #007bff;
+}
+.modal.info-alert .footer a.no{
+  background: #9c9c9c;
+}
 /* End Essay */
 
 /* Detail */
 .all-course.detail h2.inner{
   border-bottom: 1px solid #e6e7e9;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   margin-bottom: 30px;
 }
 .detail .nav-tabs .nav-item.nav-link{

@@ -385,21 +385,26 @@
 </html>
 
 <!-- Modal -->
-<div class="modal certificate fade" id="detailCertificate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal certificate fade info-alert" id="detailCertificate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
         <button type="button" class="close btn-diss" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      <img src="assets/img/sertifikat.jpg" class="img-fluid">
+        <div class="desc-information text-center">
+          <p>Anda akan dialihkan ke halaman detail performance, ingin melanjutkan?</p>
+        </div>
+        <div class="footer text-center">
+          <a href="my-performance.html" class="yes btn-yes">Ya</a>
+          <a href="#" class="no btn-no" data-dismiss="modal" aria-label="Close">Tidak</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-includeHTML();
 
 $(document).ready(function(){
   $("#notifDown").hide();
