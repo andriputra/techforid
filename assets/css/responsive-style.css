@@ -799,6 +799,39 @@
   .modal.quiz .modal-head span.text{
     font-size: 36px;
   }
+  .modal.follow .header button.close{
+    top: 6px;
+  }
+  .modal.follow .header label {
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .modal.follow .header .search-box {
+    position: relative;
+    display: block;
+    float: none;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .modal.follow .box-follow .rank {
+    width: 50%;
+    padding-left: 5px;
+  }
+  .modal.follow.follower .header .search-box{
+    display: inline-block;
+    width: 70%;
+  }
+  .modal.follow.follower .box-follow .author {
+    width: 14%;
+  }
+  .modal.follow.follower .box-follow .button-follow{
+    width: 33%;
+  }
+  .modal.follow.follower .box-follow .button-follow.followed a,
+  .modal.follow.follower .box-follow .button-follow.following a{
+    padding: 3px 0px;
+    width: 100%;
+  }
 
   footer{
     padding: 40px 0px 20px;
