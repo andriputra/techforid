@@ -5332,6 +5332,7 @@ span.step__text{
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
+  margin-bottom: 5px;
 }
 .list-item-announcement ul li.disable{
   background: #f5f5f5;
