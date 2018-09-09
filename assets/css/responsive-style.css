@@ -832,6 +832,24 @@
     padding: 3px 0px;
     width: 100%;
   }
+  .result .all-course__filter .split__filter{
+    width: 100% !important;
+  }
+  .result .all-course__filter .split__filter.search {
+    width: 100% !important;
+    margin: 10px 0px 10px 0px !important;
+  }
+  .announcement.all-course .all-course__filter .split__filter.search button{
+    top: unset;
+    bottom: 0px;
+  }
+  .list-item-announcement ul li a .box-dropdown div.product__image{
+    width: 20%;
+  }
+  .list-item-announcement ul li a .box-dropdown .box__desc {
+    width: 71%;
+    vertical-align: top;
+  }
 
   footer{
     padding: 40px 0px 20px;
