@@ -5332,6 +5332,7 @@ span.step__text{
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
+  margin-bottom: 5px;
 }
 .list-item-announcement ul li.disable{
   background: #f5f5f5;
@@ -5427,8 +5428,9 @@ span.step__text{
   border-bottom: 1px solid #e6e7e9;
   border-right: 1px solid #e6e7e9;
   border-left: 1px solid #e6e7e9;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .box-footer ul{
   padding-left: 0px;
@@ -5483,6 +5485,157 @@ span.step__text{
   width: 31%;
   color: #215CA0;
   font-size: 14px;
+}
+.detail.profile-step .tab-pane{
+  border-bottom: none;
+  padding: 20px 10px
+}
+.detail.profile-step .tab-pane ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.detail.profile-step .tab-pane ul li{
+  display: inline-block;
+  margin-right: 27px;
+}
+.detail.profile-step .tab-pane ul li:last-child{
+  margin-right: 0px;
+}
+.box-tab{
+  border: 1px solid #E6E7E9;
+  margin-bottom: 30px;
+}
+.box-tab .box__title{
+  padding: 15px 10px;
+  border-bottom: 1px solid #e6e7e9;
+}
+.box-tab .box__title span{
+  color: #032e61;
+}
+.box-tab .box__title span.symbol{
+  font-size: 16px;
+}
+.box-tab .box__title span ion-icon,
+.box-tab .box__title span i.fa{
+  color: #032e61;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.box-tab .box__title span.info-sym{
+  color: #9AA0AB;
+  font-size: 14px;
+  float: right;
+}
+.box-tab .box__logo{
+  padding: 30px 10px;
+  border-bottom: 1px solid #e6e7e9;
+}
+.box-tab .box-more a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  color: #215CA0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.box-tab .box-more a:hover{
+  background: #EDEDED;
+}
+.box-tab .box__logo.list{
+  padding: 10px;
+}
+.box-tab .box__logo.list:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 8px rgba(0,69,142,0.35);
+}
+.box-tab .box__logo.list .list{
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-tab .box__logo.list .list.logo-box{
+  width: 8%;
+}
+.box-tab .box__logo.list .list.box-text{
+  width: 85%;
+  padding-left: 5px;
+}
+.box-tab .box__logo.list .list.box-text p{
+  margin-bottom: 0px;
+  line-height: 15px;
+}
+.box-tab .box__logo.list .list.box-text .sortir{
+  color: #00A1E0;
+  font-size: 12px;
+}
+.box-tab .box__logo.list .list.box-text .sortir i{
+  font-size: 18px;
+  color: #808080
+}
+.box-tab .box__logo.list .list.box-text .sortir i.fa-angle-down:hover{
+  color: #D03D06;
+}
+.inner-box{
+  padding: 5px 10px;
+}
+.box-tab .box__logo.list.half-section{
+  display: inline-block;
+  width: 47.3%;
+  border: 1px solid #e6e7e9;
+  margin: 7px 6px;
+  border-radius: 3px;
+}
+.box-tab .box__logo.list.half-section .list.logo-box{
+  width: 20%;
+  background-color: #F05247;
+  text-align: center;
+  border-radius: 50px;
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+}
+.box-tab .box__logo.list.half-section .list.logo-box.shield{
+  background-color: #5FB48E;
+}
+.box-tab .box__logo.list.half-section .list.logo-box.medal{
+  background-color: #00A1E0;
+}
+.box-tab .box__logo.list.half-section .list.logo-box.premium{
+  background-color: #607D8B;
+}
+.box-tab .box__logo.list.half-section .list.logo-box.contract{
+  background-color: #B5BABF;
+}
+.box-tab .box__logo.list.half-section .list.box-text{
+  width: 78%;
+}
+.box-tab .box-more.more a{
+  border-top: 1px solid #e6e7e9;
+}
+.box-tab .box__logo.list.half-section .list span.sortir{
+  color: #9AA0AB;
+}
+.box-tab.experience .box__logo.list{
+  border-left: 6px solid #00A1E0;
+  margin-bottom: 6px;
+}
+.box-tab.experience .box__logo.list .list.box-text{
+  width: 100%;
+}
+.box-tab.experience .box__logo.list:hover{
+border-left: 6px solid #215CA0;
+}
+.box-tab.one img{
+  width: 100%;
+}
+.box-tab.one .box__title{
+  border-bottom: none;
+}
+.box-tab.one .box__logo.list:hover{
+  box-shadow: none;
+  cursor: auto;
 }
 /* End Profile */
 
