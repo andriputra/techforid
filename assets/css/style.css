@@ -6127,6 +6127,16 @@ border-left: 6px solid #215CA0;
 }
 /*  END Voucher*/
 
+/* Leaderboard */
+.all-course.leaderboard h2{
+  line-height: 30px;
+}
+.all-course.leaderboard h2 span{
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* End Leaderboard */
 
 footer{
   background-color: #434A54;
