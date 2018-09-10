@@ -850,6 +850,62 @@
     width: 71%;
     vertical-align: top;
   }
+  .signup{
+    display: block;
+  }
+  .signup .half-section {
+    width: 100%;
+  }
+  .signup .half-section.form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-signup {
+    padding: 20px 0px;
+  }
+  .form-signup .button{
+    margin-top: 30px;
+  }
+  .form-signup .button button{
+    width: 100%;
+  }
+  .form-signup .button a{
+    display: block;
+    float: none;
+  }
+  .signup .half-section.hero-image{
+    padding: 20px;
+  }
+  .signup .half-section.hero-image h1{
+    font-size: 7vh;
+  }
+  .signup .half-section.hero-image h2{
+    font-size: 5vh;
+  }
+  .box-voucher {
+    display: block;
+  }
+  .box-voucher .half-box,
+  .box-voucher .half-box.long {
+    width: 100%;
+  }
+  .box-voucher .half-box .box-blue{
+    margin-right: 0px;
+  }
+  .box-voucher .half-box.long {
+    margin-top: 15px;
+  }
+  .list-item-announcement.voucher ul li a .box-dropdown div.product__image {
+    width: 30%;
+  }
+  .list-item-announcement.voucher ul li a .box-dropdown .action {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .box__voucher .half-voucher.text button{
+    width: 100%;
+    margin-top: 15px;
+  }
 
   footer{
     padding: 40px 0px 20px;

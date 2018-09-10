@@ -1405,7 +1405,7 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 /* End Course Package */
 
 /* Event */
-.event .all-course h2.inner{
+.event.my-course .all-course h2.inner{
   border-bottom: 1px solid #E6E7E9;
   padding-bottom: 18px;
   margin-bottom: 20px;
@@ -5312,7 +5312,7 @@ span.step__text{
 }
 .announcement.all-course .all-course__filter .split__filter.search{
   margin: 0px 0px 0px 13px;
-  width: 64%;
+  width: 61%;
 }
 .announcement.all-course .all-course__filter .split__filter.search .form-control{
   width: 80%;
@@ -5353,6 +5353,9 @@ span.step__text{
 }
 .list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__date{
   padding: 14px 0px;
+}
+.list-item-announcement li.disable a .box-dropdown div.product__image .date__notif span.notif__date{
+  color: #9AA0AB;
 }
 .list-item-announcement ul li a .box-dropdown{
   position: relative;
@@ -5638,6 +5641,343 @@ border-left: 6px solid #215CA0;
   cursor: auto;
 }
 /* End Profile */
+
+/* Sign Up */
+.signup{
+  display: flex;
+}
+.signup .half-section{
+  width: 50%;
+}
+.signup .half-section.form{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.signup .half-section.hero-image{
+  background-image: url('../img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  padding: 60px;
+}
+.signup .half-section.hero-image h1,
+.signup .half-section.hero-image h2{
+  color: #ffffff;
+}
+.signup .half-section.hero-image h1{
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.signup .half-section.hero-image h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+.form-signup{
+  padding: 50px 0px;
+}
+.form-signup h2{
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.form-signup .form-control{
+  height: 40px;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 50px;
+  font-size: 13px;
+}
+.form-signup .form-control:hover{
+  border: 1px solid #00458E;
+  box-shadow: 0px 0px 5px rgba(0,161,224,0.3), 0px 0px 5px rgba(0,161,224,0.3);
+  background: #ffffff;
+}
+.form-signup .button{
+  margin-top: 80px;
+}
+.form-signup .button button{
+  background-color: #215CA0;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  width: 30%;
+  height: 45px;
+}
+.form-signup .button a{
+  float: right;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.form-signup .button a i.fa{
+  color: #9AA0AB;
+}
+/* End Sign Up */
+
+/* Voucher */
+.voucher-tab .nav-tabs{
+  border-bottom: none;
+}
+.voucher-tab .nav-tabs .nav-link{
+  border-color: #E6E7E9;
+  background: #ffffff;
+  padding: 17px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9AA0AB;
+}
+.voucher-tab .nav-tabs .nav-link.left{
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.voucher-tab .nav-tabs .nav-link.right{
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.voucher-tab .nav-tabs .nav-link:hover,
+.voucher-tab .nav-tabs .nav-link.active{
+  background: #215CA0;
+  color: #ffffff;
+}
+.voucher-tab .tab-content .tab-pane{
+  padding: 30px 0px;
+}
+.box-voucher{
+  display: flex;
+  border: 1px solid #E6E7E9;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+.box-voucher .half-box{
+  width: 30%;
+}
+.box-voucher .half-box .box-blue{
+  background: #00a3e6;
+  min-height: 100%;
+  margin-right: 12px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.box-voucher .half-box .box-blue span{
+  display: block;
+}
+.box-voucher .half-box .box-blue span.title{
+  font-size: 15px;
+  font-weight: 600;
+}
+.box-voucher .half-box .box-blue span.count{
+  font-size: 43px;
+  font-weight: 300;
+  margin: 16px 0px 10px;
+}
+.box-voucher .half-box .box-blue span img{
+  vertical-align:  middle;
+}
+.box-voucher .half-box .box-blue span i.fa{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.box-voucher .half-box .box-blue span.desc{
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.box-voucher .half-box .box-blue .btn-blue{
+  border: none;
+  background: #00458E;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.box-voucher .half-box .box-blue .btn-blue:hover{
+  background: #032E61;
+}
+.box-voucher .half-box .box-blue .btn-blue i{
+  background: #ffb300;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px;
+  color: #333333;
+  line-height: 12px;
+  text-align: center;
+  margin-right: 10px;
+}
+.box-voucher .half-box.long{
+  width: 70%;
+}
+.box-voucher .half-box.long img{
+  width: 100%;
+}
+.box__voucher_main{
+  border-radius: 6px;
+  border: 1px solid #E6E7E9;
+  margin-bottom: 20px;
+}
+.box__voucher{
+  display: flex;
+  padding: 8px;
+}
+.box__voucher span{
+  display: block;
+}
+.box__voucher .half-voucher.img{
+  width: 35%;
+}
+.box__voucher .half-voucher.text{
+  width: 65%;
+  padding-left: 15px;
+}
+.box__voucher .half-voucher.text span{
+  font-size: 14px;
+  line-height: 18px;
+}
+.box__voucher .half-voucher.text span.title{
+  color: #00458E;
+  font-weight: 600;
+}
+.box__voucher .half-voucher.text span.sub-title{
+  color: #434A54;
+}
+.box__voucher .half-voucher.text span.desc,
+.box__voucher .half-voucher.text span.stock{
+  color: #9AA0AB;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 14px;
+}
+.box__voucher .half-voucher.text .action{
+  border-top: 1px solid #E6E7E9;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.box__voucher .half-voucher.text .info{
+  display: inline-block;
+  vertical-align: middle;
+}
+.box__voucher .half-voucher.text .info .price{
+  color: #00458E;
+  font-size: 16px;
+  font-weight: 600;
+}
+.box__voucher .half-voucher.text button{
+  vertical-align: middle;
+  display: inline-block;
+  background: #00458E;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px 10px;
+  width: 35%;
+  text-align: center;
+  float: right;
+}
+.box__voucher .half-voucher.text button:hover{
+  background:#032E61;
+}
+.box__voucher_main:hover{
+  box-shadow: 0px 0px 8px rgba(33,92,160,0.3), 0px 0px 8px rgba(33,92,160,0.3);
+}
+.box__voucher_main .footer{
+  display: block;
+  background: #f5f5f5;
+  color: #F05247;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.list-item-announcement.voucher ul li {
+  border: 1px solid #E6E7E9;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 25px;
+}
+.list-item-announcement.voucher ul li a .box-dropdown::after{
+  content: none;
+}
+.list-item-announcement.voucher ul li a .box-dropdown div.product__image{
+  width: 13%;
+}
+.list-item-announcement.voucher li a .box-dropdown div.product__image .date__notif span.notif__date{
+  font-size: 16px;
+  padding: 20px 0px;
+}
+.list-item-announcement.voucher ul li.expire{
+  background: #ffffff;
+}
+.list-item-announcement.voucher li.expire a .box-dropdown div.product__image .date__notif span.notif__month{
+   color: #434A54;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .box__desc{
+  width: 60%;
+  margin-left: 20px;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .box__desc p{
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  color: #00458E;
+  font-weight: 600;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .box__desc span.desc {
+  color: #9AA0AB;
+  line-height: 14px;
+  font-size: 12px;
+  display: block;
+  margin-top: 6px;
+  border-bottom: 1px solid #e6e7e9;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .box__desc .expired-text {
+  color: #9AA0AB;
+  line-height: 14px;
+  font-size: 12px;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .action {
+  width: 23%;
+  padding-left: 30px;
+  text-align: center;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .action .icon{
+  text-align: right;
+  display: block;
+  color: #B5BABF;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .action button{
+  display: block;
+  background: #9AA0AB;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #434A54;
+}
+.list-item-announcement.voucher ul li.default a .box-dropdown .action button{
+  background: #00a3e5;
+  color: #ffffff;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .action button:hover{
+  background: #215CA0;
+  color: #ffffff;
+}
+.list-item-announcement.voucher ul li a .box-dropdown .action span.info{
+  font-size: 12px;
+}
+.list-item-announcement.voucher ul li a .active-text{
+  color: #00A1E0;
+font-size: 12px;
+}
+/*  END Voucher*/
+
 
 footer{
   background-color: #434A54;
