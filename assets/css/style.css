@@ -321,18 +321,23 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a{
 header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a:hover{
   background: #f5f5f5;
 }
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown,
+.list-item-announcement li a .box-dropdown{
   display: block;
 }
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div,
+.list-item-announcement li a .box-dropdown div{
   display: inline-block;
   vertical-align: top;
 }
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image,
+.list-item-announcement ul li a .box-dropdown div.product__image{
   width: 20%;
 }
 header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__date,
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month,
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__date,
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__month{
   display: block;
   border: 1px solid #F5F5F5;
   background: #E6E7E9;
@@ -343,7 +348,8 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown 
   font-weight: 600;
   width: 60px;
 }
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.product__image .date__notif span.notif__month,
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__month{
   border-style: solid;
   border-width: 1px;
   background-color: #00A1E0;
@@ -354,7 +360,8 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown 
   color: #ffffff;
   padding: 2px 0px;
 }
-header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc{
+header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown div.box__desc,
+.list-item-announcement li a .box-dropdown div.box__desc{
   margin-left: 8px;
 }
 header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li a .box-dropdown .product__image img{
@@ -5197,6 +5204,287 @@ span.step__text{
   line-height: 23px;
 }
 /* End Ujian */
+
+/* Hasil Karya */
+.result .all-course__filter{
+  border: none;
+  background: #ffffff;
+  padding: 20px 0px 0px;
+}
+.result .all-course__filter .split__filter{
+  width: 32% !important;
+  margin: 10px 0px !important;
+}
+.result .all-course__filter h3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.result .all-course__filter button{
+  margin-left: 0px;
+  background: #005ca5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50px;
+  height: 40px;
+  width: 100%;
+}
+.result .all-course__filter button:hover{
+  background: #032E61;
+}
+.result .all-course__filter .split__filter.search{
+  width: 60% !important;
+  margin: 10px 0px 10px 40px !important;
+}
+.result .all-course__filter .split__filter.search button{
+  width: auto;
+}
+.result .all-course__filter .split__filter.search .form-control{
+  border: 1px solid #e6e7e9;
+}
+.result .all-course__filter button .fa{
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.result .tab-pane{
+  padding: 20px 0px 0px;
+  border-bottom: none;
+}
+.result .tab-pane span{
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+}
+.result .tab-pane span.time{
+  color: #9AA0AB;
+  font-size: 12px;
+}
+.result .tab-pane span.sortir{
+  font-size: 12px;
+  color: #00A1E0;
+}
+.result .tab-pane span.sortir .fa-angle-up:hover{
+  color: #00A1E0;
+}
+.result .tab-pane span.sortir .fa-angle-up,
+.result .tab-pane span.sortir .fa-angle-down{
+  color: #9AA0AB;
+  font-size: 18px;
+  vertical-align: bottom;
+}
+.result .tab-pane span.sortir .fa-angle-down:hover{
+  color: red;
+}
+.result .tab-pane .table-responsive.repeat-table table{
+  margin-bottom: 0px;
+}
+.result .tab-pane table:hover{
+  box-shadow: 0px 0px 8px rgba(33,92,160,0.35);
+  margin: 0px 0px -1px;
+}
+.result .tab-pane table tr td{
+  border-top: 0px;
+  border-bottom: 1px solid #dee2e6;
+}
+.result .tab-pane table tr td:first-child,
+.result .tab-pane table tr td:last-child{
+  width: 10%;
+  padding: 7px;
+}
+.result .tab-pane table tr td:nth-child(3){
+  font-size: 14px;
+  padding: 7px;
+  width: 18%;
+  text-align: right;
+}
+.result .tab-pane table tr td:nth-child(2){
+  padding: 7px;
+}
+/* End Hasil Karya */
+
+/* Announcement */
+.announcement.all-course .all-course__filter{
+  padding: 10px 20px;
+  margin-bottom: 0px;
+}
+.announcement.all-course .all-course__filter .split__filter.search{
+  margin: 0px 0px 0px 13px;
+  width: 64%;
+}
+.announcement.all-course .all-course__filter .split__filter.search .form-control{
+  width: 80%;
+}
+.announcement.all-course .all-course__filter span.title.thin{
+  font-weight: 300;
+  margin-right: 10px;
+}
+.list-item-announcement ul{
+  padding-left: 0px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+.list-item-announcement ul li{
+  border-bottom: 1px solid #E6E7E9;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.list-item-announcement ul li.disable{
+  background: #f5f5f5;
+}
+.list-item-announcement li.disable a .box-dropdown div.product__image .date__notif span.notif__month{
+  background: #B5BABF;
+}
+.list-item-announcement ul li:hover{
+  box-shadow: 0px 0px 8px rgba(33,92,160,0.3), 0px 0px 8px rgba(33,92,160,0.3);
+}
+.list-item-announcement ul li a:hover{
+  text-decoration: none;
+}
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__date,
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__month,
+.list-item-announcement li a .box-dropdown div.date__notif{
+  width: 100%
+}
+.list-item-announcement li a .box-dropdown div.product__image .date__notif span.notif__date{
+  padding: 14px 0px;
+}
+.list-item-announcement ul li a .box-dropdown{
+  position: relative;
+}
+.list-item-announcement ul li a .box-dropdown::after{
+  content: "\f142";
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 3px;
+  color: #9AA0AB;
+}
+.list-item-announcement ul li a .box-dropdown .box__desc{
+  width: 90%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.list-item-announcement ul li a .box-dropdown .box__desc p{
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0px;
+  color: #9AA0AB;
+}
+.list-item-announcement ul li a .box-dropdown div.product__image{
+  width: 8%;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* End Announcement */
+
+/* Profile */
+.my-course .profile .box.package__banner{
+  padding: 0px;
+  border: none;
+}
+.my-course .profile.all-course h2.inner{
+  border-bottom: 1px solid #E6E7E9;
+  padding-bottom: 18px;
+}
+.dashboard .notification.profile{
+  text-align: center;;
+}
+.dashboard .notification.profile .header__notif{
+  min-height: 198px;
+}
+.dashboard .notification.profile .notif__text{
+  padding: 70px 20px 47px;
+}
+.dashboard .notification.profile .notif__text h3{
+  color: #434A54;
+  font-size: 18px;
+  font-weight: 600;
+}
+.dashboard .notification.profile .notif__text p {
+  color: #9AA0AB;
+}
+.dashboard .notification.profile .header__notif .user-image {
+  display: inline-block;
+  position: absolute;
+  width: 28%;
+  bottom: -70px;
+  left: 36%;
+}
+.dashboard .notification.profile .header__notif .user-image img{
+  border-color: #ffffff;
+}
+.dashboard .notification.profile .header__notif .notif{
+  right: -58px;
+}
+.box-footer{
+  border-bottom: 1px solid #e6e7e9;
+  border-right: 1px solid #e6e7e9;
+  border-left: 1px solid #e6e7e9;
+  padding: 10px 20px;
+  text-align: center;
+}
+.box-footer ul{
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.box-footer ul li{
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-footer ul li a{
+  display: inline-block;
+  color: #9AA0AB;
+  border: 1px solid #9AA0AB;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 24px;
+}
+.box-footer .disc{
+  display: inline-block
+}
+.box-footer .disc.socmed{
+  width: 16%;
+}
+.box-footer .disc.socmed a.fb:hover{
+  background: #00458E;
+  border-color: #00458E;
+  color: #ffffff;
+}
+.box-footer .disc.socmed a.tw:hover{
+  background: #1193D4;
+  border-color: #1193D4;
+  color: #ffffff;
+}
+.box-footer .disc.socmed a.ins:hover{
+  background: #434A54;
+  border-color: #434A54;
+  color: #ffffff;
+}
+.box-footer .disc.link{
+  width: 50%;
+  text-align: right;
+  padding-right: 26px;
+}
+.box-footer .disc.link a{
+  color: #1193D4;
+  text-decoration: none;
+}
+.box-footer .disc.text-inf{
+  width: 31%;
+  color: #215CA0;
+  font-size: 14px;
+}
+/* End Profile */
 
 footer{
   background-color: #434A54;
