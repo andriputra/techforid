@@ -213,21 +213,81 @@
                     <option>100</option>
                     <option>100</option>
                   </select>
+                </div>
+                <div class="split__filter select">
                   <select class="form-control">
                     <option>-- By Certificate --</option>
                     <option>20</option>
                     <option>100</option>
                   </select>
+                </div>
+                <div class="split__filter select">
                   <select class="form-control">
                     <option>-- By Level Badge --</option>
                     <option>20</option>
                     <option>100</option>
                   </select>
+                </div>
+                <div class="split__filter select">
                   <select class="form-control">
                     <option>-- Hasil Karya--</option>
                     <option>20</option>
                     <option>100</option>
                   </select>
+                </div>
+              </div>
+            </div>
+            <div class="box-side">
+              <div class="title-side">
+                <h3>Cari Lebih Detail</h3>
+              </div>
+              <div class="all-course__filter">
+                <p class="title">Berdasarkan Wilayah</p>
+                <div class="split__filter select">
+                  <select class="form-control">
+                    <option>-- Pilih Wilayah Provinsi --</option>
+                    <option>100</option>
+                    <option>100</option>
+                  </select>
+                </div>
+                <div class="split__filter select">
+                  <select class="form-control">
+                    <option>-- Pilih Kota/Kabupaten --</option>
+                    <option>20</option>
+                    <option>100</option>
+                  </select>
+                </div>
+                <div class="divider"></div>
+                <p class="title">Berdasarkan Pendidikan</p>
+                <div class="split__filter select">
+                  <select class="form-control">
+                    <option>-- Pendidikan --</option>
+                    <option>20</option>
+                    <option>100</option>
+                  </select>
+                </div>
+                <div class="split__filter select">
+                  <select class="form-control">
+                    <option>-- Jurusan--</option>
+                    <option>20</option>
+                    <option>100</option>
+                  </select>
+                </div>
+                <p class="title">Ingin bekerja sebagai</p>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Freelancer</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2">
+                  <label class="custom-control-label" for="customCheck2">Karyawan</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck3">
+                  <label class="custom-control-label" for="customCheck3">Partnership</label>
+                </div>
+                <div class="action">
+                  <button type="button" name="button" class="btn btn-default btn-blue">FILTER</button>
                 </div>
               </div>
             </div>
@@ -238,7 +298,7 @@
             <h2 class="inner">Alumni</h2>
             <div class="all-course__filter">
               <span>Show</span>
-              <div class="split__filter select">
+              <div class="split__filter select filter-count">
                 <select class="form-control">
                   <option>10</option>
                   <option>20</option>
@@ -253,17 +313,217 @@
                 </form>
               </div>
             </div>
-          </div>
-          <div class="pagination-bottom text-center">
-            <ul class="pagination">
-              <li><a href="#"><</a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">></a></li>
-            </ul>
+            <div class="table__list">
+              <div class="table table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Badges</th>
+                      <th>Username</th>
+                      <th>Kursus</th>
+                      <th>Sertifikat</th>
+                      <th>Karya</th>
+                      <th>Point</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td><img src="assets/img/bedg_yellow.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/author.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Alice Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td><img src="assets/img/bedg_red.png" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/lisa.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot offline"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Margaret Govar</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td><img src="assets/img/bedg_cyan.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/jow.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>John Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td><img src="assets/img/bedg_cyan.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/dwi.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>John Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td><img src="assets/img/bedg_blue.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/jow.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>John Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td><img src="assets/img/bedg_green.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/darwin.png" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Darwin Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td><img src="assets/img/bedg_cyan.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/corori.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Corori Nills</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td><img src="assets/img/bedg_red.png" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/profile1.png" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>John Collins</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td><img src="assets/img/bedg_yellow.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/profile2.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot online"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Simanjuntak</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td><img src="assets/img/bedg_yellow.jpg" class="img-fluid"></td>
+                      <td>
+                        <div class="autor">
+                          <img src="assets/img/lisa.jpg" alt="" class="img-fluid rounded-circle">
+                          <span class="dot offline"></span>
+                        </div>
+                        <div class="name-info">
+                          <p>Simanjuntak Solihin</p>
+                          <span class="desc">level</span>
+                        </div>
+                      </td>
+                      <td>19</td>
+                      <td>27</td>
+                      <td>24</td>
+                      <td>27</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="pagination-bottom content-leaderboard">
+              <p class="grey">Showing 1 to 10 of 30 entries</p>
+              <ul class="pagination">
+                <li><a href="#"><</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">></a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -347,29 +607,3 @@
   </footer>
 </body>
 </html>
-
-<script type="text/javascript">
-$('.owl-carousel.slider__low_item').owlCarousel({
-    loop:true,
-    margin:25,
-    responsiveClass:true,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:true
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:true
-        }
-    }
-})
-</script>

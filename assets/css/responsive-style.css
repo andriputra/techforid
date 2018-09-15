@@ -241,7 +241,17 @@
     min-height: 210px;
   }
   .all-course .breadcrumb::before{
-    height: 210px;
+    /* height: 210px; */
+    height: 100%;
+  }
+  .all-course.leaderboard .breadcrumb h2{
+    margin-bottom: 0px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  .all-course.leaderboard h2 span{
+    font-size: 14px;
+    line-height: 9px;
   }
   .all-course .all-course__filter span.title{
     display: block;
@@ -915,6 +925,38 @@
   }
   .share-this ul li span.share-icon{
     padding-left: 50px;
+  }
+  .leaderboard .content-bar {
+    padding-left: 0px;
+  }
+  .content-bar .all-course__filter .split__filter.filter-count {
+    width: 30%;
+  }
+  .content-bar .all-course__filter .split__filter.search{
+    float: none;
+  }
+  .content-bar .table__list .name-info{
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 6px;
+  }
+  .table__list table td:nth-child(3) .autor {
+    width: 40%;
+    vertical-align: middle;
+    position: relative;
+  }
+  .content-leaderboard p {
+    display: block;
+    color: #9AA0AB;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .content-leaderboard{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .content-leaderboard ul.pagination{
+    float: none;
   }
 
   footer{
